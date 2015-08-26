@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Iosclub</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-  <%= render 'layouts/shim' %>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iosclub</title>
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+<%= csrf_meta_tags %>
+<%= render 'layouts/shim' %>
+<script>
+$(document).on('affixed.bs.affix', '#affix-container', function() {
+    $("#content").css({
+      "padding-top":"70px"
+    });
+  });
+$(document).on('affixed-top.bs.affix', '#affix-container', function() {
+    $("#content").css({
+      "padding-top":"0px"
+    });
+  });
+$(document).ready(function() {
+  $('#affix-container').affix({
+    offset: {
+      top: $('#banner').height()
+    }
+  });
+});
+</script>
 </head>
 <body>
 <%= render 'layouts/header' %>
-<div class="container-fluid">
+<div class="container-fluid" id="content">
 <%= yield %>
 </div>
 

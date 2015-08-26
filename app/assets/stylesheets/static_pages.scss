@@ -47,6 +47,13 @@ textarea {
   padding:2px;
 }
 
+.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
 /* tutorials */
 
 #tutorials-sidebar {
@@ -64,3 +71,11 @@ textarea {
 .panel-body { padding:0px; }
 .panel-body table tr td { padding-left: 15px }
 .panel-body .table {margin-bottom: 0px; }
+
+/* responsive */
+
+@media only screen and (max-device-width: 480px) {
+  #banner {
+    display:none;
+  }
+}

@@ -1,0 +1,14 @@
+<div id="banner">
+  <%= image_tag("banner.png", :id => "banner-img") %>
+</div>
+<header class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <%= image_tag 'icon.png', :id => "logo", :class => "navbar-brand" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home",   root_url %></li>
+        <li><%= link_to "Tutorials",   'tutorials' %></li>
+      </ul>
+    </nav>
+  </div>
+</header>

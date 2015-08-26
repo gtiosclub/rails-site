@@ -1,0 +1,66 @@
+$navbar-inverse-bg: #E0AA0F;
+//$navbar-inverse-link-color: #00263A;
+
+$nav-pills-active-link-hover-color: white;
+$nav-pills-active-link-hover-bg: #00263A;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+
+body {
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* header */
+
+#banner {
+  top: 0;
+  height:250px;
+  width:100%;
+  background-color: #062539;
+}
+
+#banner-img {
+  display: block;
+  height:100%;
+  margin: auto;
+}
+
+#logo {
+  padding:2px;
+}
+
+/* tutorials */
+
+#tutorials-sidebar {
+  height:100%;
+}
+
+#tutorial-content {
+  border-left: 1px solid #ddd;
+}
+
+.nav-pills > li > a {
+  color: #00263A;
+}
+
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }

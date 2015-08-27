@@ -10,7 +10,7 @@
 <script>
 $(document).on('affixed.bs.affix', '#affix-container', function() {
     $("#content").css({
-      "padding-top":"70px"
+      "padding-top":$('#affix-container').height()
     });
   });
 $(document).on('affixed-top.bs.affix', '#affix-container', function() {
@@ -32,6 +32,6 @@ $(document).ready(function() {
 <div class="container-fluid" id="content">
 <%= yield %>
 </div>
-
+<%= render 'layouts/footer' %>
 </body>
 </html>

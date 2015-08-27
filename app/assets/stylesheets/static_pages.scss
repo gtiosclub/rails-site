@@ -28,6 +28,10 @@ textarea {
   margin-bottom: 10px;
 }
 
+.no-padding {
+  padding: 0 0 0 0px;
+}
+
 /* header */
 
 #banner {
@@ -48,10 +52,16 @@ textarea {
 }
 
 .affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* home */
+
+#home-content {
+  padding: 0px 40px 10px 40px;
 }
 
 /* tutorials */
@@ -77,5 +87,17 @@ textarea {
 @media only screen and (max-device-width: 480px) {
   #banner {
     display:none;
+    height:0;
   }
+}
+
+/* footer */
+
+.navbar-static-bottom {
+  border-radius: 0;
+  z-index: 1000;
+  border-width: 0 0 1px;
+  padding-right: 0;
+  padding-left: 0;
+  margin: 20px 0 0;
 }

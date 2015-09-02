@@ -16,6 +16,30 @@ function setTutorial(part) {
     case 3:
       $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 3}) %>");
       break;
+    case 4:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 4}) %>");
+      break;
+    case 5:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 5}) %>");
+      break;
+    case 6:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 6}) %>");
+      break;
+    case 7:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 7}) %>");
+      break;
+    case 8:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 8}) %>");
+      break;
+    case 9:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 9}) %>");
+      break;
+    case 10:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 10}) %>");
+      break;
+    case 11:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 11}) %>");
+      break;
   }
 }
 </script>
@@ -31,10 +55,18 @@ function setTutorial(part) {
         <div id="collapseOne" class="panel-collapse collapse in">
           <div class="panel-body">
             <table class="table">
-              <tr><td><a href="#" onClick="setTutorial(0)">Part 0</a></td></tr>
-              <tr><td><a href="#" onClick="setTutorial(1)">Part 1</a></td></tr>
-              <tr><td><a href="#" onClick="setTutorial(2)">Part 2</a></td></tr>
-              <tr><td><a href="#" onClick="setTutorial(3)">Part 3</a></td></tr>
+              <tr><td><a href="#" onClick="setTutorial(0)">Part 0: Setting up your Github</a></td></tr>
+              <tr><td><a href="#" onClick="setTutorial(1)">Part 1: Setting up the MainScene (Spritebuilder Part 1)</a></td></tr>
+              <tr><td><a href="#" onClick="setTutorial(2)">Part 2: Setting up the MainScene (Spritebuilder Part 2)</a></td></tr>
+              <tr><td><a href="#" onClick="setTutorial(3)">Part 3: Understanding the Code</a></td></tr> 
+              <tr><td><a href="#" onClick="setTutorial(4)">Part 4: Setting up your MainScene (XCode)</a></td></tr>
+              <tr><td><a href="#" onClick="setTutorial(5)">Part 5: Setting up your FlappyBird (Part 1: Initialization)</a></td></tr>
+              <tr><td><a href="#" onClick="setTutorial(6)">Part 6: Setting up your FlappyBird (Part 2: Touch Began)</a></td></tr>
+              <tr><td><a href="#" onClick="setTutorial(7)">Part 7: Setting up your Obstacles (Part 1: SpriteBuilder)</a></td></tr>
+              <tr><td><a href="#" onClick="setTutorial(8)">Part 8: Setting up your Obstacles (Part 2: Update)</a></td></tr>
+              <tr><td><a href="#" onClick="setTutorial(9)">Part 9: Setting up the Collisions (Game Over Collisions)</a></td></tr>
+              <tr><td><a href="#" onClick="setTutorial(10)">Part 10: Setting up the Collisions (Points Collisions)</a></td></tr>
+              <tr><td><a href="#" onClick="setTutorial(11)">Part 11: Pushing your changes to Github</a></td></tr>
             </table>
           </div>
         </div>

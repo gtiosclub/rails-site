@@ -1,3 +1,5 @@
-<div id="home-content">
+<div class="row" id="outer-home">
+<div id="home-content" class="col-md-8 col-md-offset-2">
 <%= render :inline => GitHub::Markdown.render_gfm(File.read("#{Rails.root}/app/assets/tutorials/home.md")) %>
+</div>
 </div>

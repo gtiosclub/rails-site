@@ -1,17 +1,16 @@
 ## Announcements
-For our meeting on 9/03 do these 3 things:
-- Get XCode (App Store)
-- Get SpriteBuilder (App Store)
-- Get Github (github.com)
+For our meeting on 9/10 
+- Get Github set up with SSH Keys. If you have a github client downloaded and installed you don't need to do this.
+- Part 0 - 2 of FlappyBirdTutorial
 
-We're meeting in 347 still, and we're starting FlappyBird. See y'all there!
+I'm hosting a recap session an hour before the thursday meeting at 5PM. Be there if you want to catch up. Otherwise, 6PM at CCB 347!
 
 ## Schedule
-Date | Stuff
-------------- | -------------
+Date   | Stuff
+-------| -------------
 8/27   | Introduction, App Demonstrations, Swift: Syntax, Implementation, and Optionals
 9/03   | Flappy Bird Week 1
-9/10   | Flappy Bird Week 2
+**9/10**   | Flappy Bird Week 2
 9/17   | Flappy Bird Week 3
 9/24   | Swift extensions, protocols, structs, enums, property types.
 10/08  | Peeved Penguins Week 1

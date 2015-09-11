@@ -1,9 +1,9 @@
 ## Part 1: Setting up the MainScene (Spritebuilder Part 1)
 
-Now we'll get into real game development. Use finder and open up your `.ccbproj` file in `FlappyBirdSwift-Template/FlappySwift.Spritebuilder`:
+Now we'll get into real game development. Open SpriteBuilder and go to `File > Open...`. Navigate to your `FlappyBirdSwift-Template/FlappySwift.Spritebuilder` and press open.
 
 </br>
-<img src="/assets/P1/part1-ccbproj.png" style="width: 50%; height: 50%">
+<img src="/assets/P1/part1-open.png" style="width: 50%; height: 50%">
 </br>
 
 We want to create a new scene for our game. This spritebuilder scene will contain the assets and code connections for our actual code in XCode and will represent what we will see when we start up the application.

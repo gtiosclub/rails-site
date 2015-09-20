@@ -11,11 +11,12 @@ Date   | Stuff
 9/03   | Flappy Bird Week 1
 9/10   | Flappy Bird Week 2
 9/17   | **NO MEETING DUE TO CAREER FAIR**
-9/24   | Flappy Bird Week 3
-10/08  | Optionals, Properties, Enums, Structs, Protocols, Extensions (Game of Life on your own)
+9/24   | Flappy Bird Week 3 + (Flappy Bird Knockoff Start )
+10/01  | Optionals / Properties / Classes / Structs
+10/08  | Extensions / Protocols / Enums + (Flappy Bird Knockoff due)
 10/15  | Peeved Penguins Week 1
 10/22  | Peeved Penguins Week 2
-10/29  | Peeved penguins Week 3 (2048 on your own)
+10/29  | Peeved penguins Week 3 + (2048 on your own)
 11/05  | Calculator Week 1
 11/12  | Calculator Week 2
 11/19  | Calculator Week 3
@@ -29,7 +30,7 @@ Date   | Stuff
 1/14   | MVC, View Controllers, Table View Controllers IBActions
 1/21   | Makestagram Week 1
 1/28   | Makestagram Week 2
-2/4    | Makestagram Week 3
+2/4    | Makestagram Week 3              
 2/11   | Makestagram Week 4
 2/18   | Lecture TBD, First prototype of app done.
 2/25   | Lecture TBD, 1 on 1 talks, deadline to sign up for Demo Day

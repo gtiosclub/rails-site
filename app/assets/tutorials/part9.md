@@ -31,13 +31,13 @@ In addition, let's add a restart button to MainScene.ccb. In the node menu, drag
 
 When we set the document selector to "restart", every time the button is pressed it will call the function `restart()` in `MainScene.swift`. We're going to implement `restart()` later.
 
-Making sure that the `visible` checkbox is unchecked makes it so that the restart button doesn't show up until we programmatically make it show up by setting `_restartButton.visible = true`. Consequently, when the button is not visible, it cannot call the restart() method in `MainScene.swift`.
+Making sure that the `visible` checkbox is unchecked makes it so that the restart button doesn't show up until we programmatically make it show up by setting `_restartButton.visible = true`. Consequently, when the button is not visible, it cannot call the `restart()` method in `MainScene.swift`.
 
 Click on **publish** and switch back to XCode. In MainScene.swift, add the `restart()` function below:
 
 ```
 func restart() {
-    var scene = CCBReader.loadAsScene("MainScene")
+    let scene = CCBReader.loadAsScene("MainScene")
     CCDirector.sharedDirector().replaceScene(scene)
 }
 ```
@@ -74,9 +74,9 @@ func gameOver() {
         hero?.stopAllActions()
 
         //shake the screen
-        var move = CCActionEaseBounceOut(action: CCActionMoveBy(duration: 0.1, position: ccp(0, 4)))
-        var moveBack = CCActionEaseBounceOut(action: move.reverse())
-        var shakeSequence = CCActionSequence(array: [move, moveBack])
+        let move = CCActionEaseBounceOut(action: CCActionMoveBy(duration: 0.1, position: ccp(0, 4)))
+        let moveBack = CCActionEaseBounceOut(action: move.reverse())
+        let shakeSequence = CCActionSequence(array: [move, moveBack])
         runAction(shakeSequence)
     }
 }

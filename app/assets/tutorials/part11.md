@@ -17,7 +17,7 @@ Now we want to add these changes to the "commit". The commit is a snapshot of yo
 git add --all
 ```
 
-This will add all of the changes that you've made to the commit so that you can save a snapshot of what your code looks like. Altnernatively you can add individual files by saying for example `git add MainScene.ccb` to add individual files. The tag --all means that you want to add all of your changes.
+This will add all of the changes that you've made to the commit so that you can save a snapshot of what your code looks like. Altnernatively you can add individual files by saying for example `git add MainScene.ccb` to add individual files. The tag `--all` means that you want to add all of your changes.
 
 Type `git status` again. You should see that all of your files are in green. This means that you changes are ready to be commited as a snapshot. If you wanted to remove all the changes that you added, you would type `git reset`, but don't do that now.
 

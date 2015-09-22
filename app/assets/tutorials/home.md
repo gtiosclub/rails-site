@@ -1,6 +1,8 @@
 ## Announcements
-**THERE IS NO MEETING ON 9/17, OUR NEXT MEETING IS 9/24
+**THERE IS NO MEETING ON 9/17, OUR NEXT MEETING IS 9/24**
 -We did 0-5 on our last meeting. I want you all to do parts 6 and 7 by our next meeting on 9/24. We'll finish the Flappy Bird tutorial parts 8-11 at 9/24
+
+-In addition, I will be hosting a catch up session to do parts 6 and 7 at 5PM CCB 347 on Thursday 9/24, one hour before the actual meeting. Come along if you'd like to ask any questions!
 
 6PM at CCB 347!
 

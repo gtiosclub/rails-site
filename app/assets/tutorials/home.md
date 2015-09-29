@@ -1,4 +1,6 @@
 ## Announcements
+It's official! GT APPATHON is LIVE! GT iOS Club is teaming up with 4 other clubs, GITMAD, WebDev, Design, and Humanitech to throw this year's APPATHON. This event is hosted on Oct 17th - Oct 18th in KLAUS 1443. There will be awesome prizes (such as an ipad mini) and prizes for even building a game! Join the facebook event! goog.gl/tDTJYZ!
+
 We finished FlappyBird Week 3! I want y'all to finish the tutorial and then work on your own flappy bird knockoff. Change the character, add particle effects, or even add crazy sounds. Whoever builds the best flappy bird knockoff wins a prize. Your flappy bird knockoff is due 10/08 and the judging criteria is that it must make me laugh. 
 
 This week we'll be working on swift and be taking a break from app development. For the next two weeks we'll be doing swift lectures, one by me and one by Cal. In addition, I will be spending a bit of time at each meeting to have y'all work on your Flappy Bird Clones, so definitely come by.

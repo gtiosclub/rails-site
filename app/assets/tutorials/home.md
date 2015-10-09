@@ -1,13 +1,12 @@
 ## Announcements
-It's official! GT APPATHON is LIVE! GT iOS Club is teaming up with 4 other clubs, GITMAD, WebDev, Design, and Humanitech to throw this year's APPATHON. This event is hosted on Oct 17th - Oct 18th in KLAUS 1443. There will be awesome prizes (such as an ipad mini) and prizes for even building a game! Join the facebook event! goog.gl/tDTJYZ!
+Hey everyone, we finished Game of Life on Thursday.
+- The tutorial can be found here: https://www.makeschool.com/…/learn-sprite…/what-game-of-life.  
+- Assets for this can be downloaded here: https://goo.gl/V60LmK
+- To add the assets, please drag the **GameOfLifeAssets** folder that you unziped direclty into your Spritebuilder project in the left margin (not inside ccbresources).
 
-We finished FlappyBird Week 3! I want y'all to finish the tutorial and then work on your own flappy bird knockoff. Change the character, add particle effects, or even add crazy sounds. Whoever builds the best flappy bird knockoff wins a prize. Your flappy bird knockoff is due 10/08 and the judging criteria is that it must make me laugh. 
+The flappy bird knockoff is due 10/14, so send github links to iosgatech@gmail.com or message me on facebook: Brian Wang
 
-This week we'll be working on swift and be taking a break from app development. For the next two weeks we'll be doing swift lectures, one by me and one by Cal. In addition, I will be spending a bit of time at each meeting to have y'all work on your Flappy Bird Clones, so definitely come by.
-
-Finally, I may make 5PM catch up sessions a permanent thing. I'll post an annoucement soon.
-
-6PM at CCB 347!
+I'm still figuring out how what I'm going to do for 5PM session, but the 6PM meeting is still good.
 
 ## Schedule
 Date   | Stuff
@@ -17,13 +16,13 @@ Date   | Stuff
 9/10   | Flappy Bird Week 2
 9/17   | **NO MEETING DUE TO CAREER FAIR**
 9/24   | Flappy Bird Week 3 + (Flappy Bird Knockoff Start )
-10/01  | Optionals / Properties / Classes / Structs
-10/08  | Extensions / Protocols / Enums + (Flappy Bird Knockoff due)
-10/15  | Peeved Penguins Week 1
-10/22  | Peeved Penguins Week 2
-10/29  | Peeved penguins Week 3 + (2048 on your own)
-11/05  | Calculator Week 1
-11/12  | Calculator Week 2
+10/01  | Game Of Life Part 1
+10/08  | Game Of Life Part 2
+10/15  | CCParticleSystems, CCActions + (FLappy Bird Knockoff Due)
+10/22  | Optionals / Properties / Classes / Structs
+10/29  | Extensions / Protocols / Enums
+11/05  | Calculator Week 1 Pitches
+11/12  | Calculator Week 2 Pitches
 11/19  | Calculator Week 3
 11/26  | **THANKSGIVING BREAK**
 12/03  | **DEAD WEEK**

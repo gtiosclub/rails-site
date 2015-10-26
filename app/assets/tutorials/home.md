@@ -1,10 +1,9 @@
 ## Announcements
-For meeting on 10/22
-- 5PM Catch up session on AVAudioPlayer and CCAnimations
-- 6PM Meeting on Swift
+For meeting on 10/29
+- 5PM Open Help Desk, (Kinda like TA Office hours except I'm not getting credit) Come on by if you want to brainstorm ideas for your app. 
+- 6PM Meeting on Extensions Classes, Structs
 - You can get started on [2048 Tutorial](https://www.makeschool.com/tutorials/build-your-own-2048-with-spritebuilder-and-swift/getting-started) hosted by MakeSchool
-- Knockoffs due 10/21 Wednesday. Send github links to iosgatech@gmail.com or via facebook message.
-- Start thinking about game ideas you can implement that are SIMPLE and EASY. Idea pitches start 10/30
+- Start thinking about game ideas you can implement that are SIMPLE and EASY. Idea pitches start 10/29
 
 See y'all 5PM/6PM CCB 347!
 
@@ -18,7 +17,7 @@ Date   | Stuff
 9/24   | Flappy Bird Week 3 + (Flappy Bird Knockoff Start )
 10/01  | Game Of Life Part 1
 10/08  | Game Of Life Part 2
-10/15  | CCParticleSystems, CCActions 
+10/15  | John Cena Tutorial (CCParticleSystems, CCActions) 
 10/22  | Optionals / Properties / Classes / Structs + (Flappy Bird Knockoff Due)
 10/29  | Extensions / Protocols / Enums
 11/05  | Calculator Week 1 Pitches

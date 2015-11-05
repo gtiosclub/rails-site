@@ -1,5 +1,5 @@
 <%=
-  if (part) 
-    render :inline => GitHub::Markdown.render_gfm(File.read("#{Rails.root}/app/assets/tutorials/part#{part}.md"))
+  if (part)
+    render :inline => GitHub::Markdown.render_gfm(File.read("#{Rails.root}/app/assets/tutorials/#{tutorial}/part#{part}.md"))
   end
 %>

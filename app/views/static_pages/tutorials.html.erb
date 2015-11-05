@@ -1,44 +1,79 @@
 <script>
-function setTutorial(part) {
+function setFlappyTutorial(part) {
   //can't use js variables in rails methods
   //too lazy to use ajax
   //i deserve to be stoned
   switch(part) {
     case 0:
-      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 0}) %>");
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 0}) %>");
       break;
     case 1:
-      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 1}) %>");
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 1}) %>");
       break;
     case 2:
-      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 2}) %>");
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 2}) %>");
       break;
     case 3:
-      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 3}) %>");
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 3}) %>");
       break;
     case 4:
-      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 4}) %>");
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 4}) %>");
       break;
     case 5:
-      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 5}) %>");
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 5}) %>");
       break;
     case 6:
-      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 6}) %>");
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 6}) %>");
       break;
     case 7:
-      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 7}) %>");
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 7}) %>");
       break;
     case 8:
-      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 8}) %>");
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 8}) %>");
       break;
     case 9:
-      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 9}) %>");
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 9}) %>");
       break;
     case 10:
-      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 10}) %>");
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 10}) %>");
       break;
     case 11:
-      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {part: 11}) %>");
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 11}) %>");
+      break;
+  }
+}
+
+function setCalculatorTutorial(part) {
+  //can't use js variables in rails methods
+  //too lazy to use ajax
+  //i deserve to be stoned
+  switch(part) {
+    case 1:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 1}) %>");
+      break;
+    case 2:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 2}) %>");
+      break;
+    case 3:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 3}) %>");
+      break;
+    case 4:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 4}) %>");
+      break;
+    case 5:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 5}) %>");
+      break;
+    case 50:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 50}) %>");
+      break;
+    case 6:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 6}) %>");
+      break;
+    case 7:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 7}) %>");
+      break;
+    case 8:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 8}) %>");
       break;
   }
 }
@@ -55,18 +90,42 @@ function setTutorial(part) {
         <div id="collapseOne" class="panel-collapse collapse in">
           <div class="panel-body">
             <table class="table">
-              <tr><td><a href="#" onClick="setTutorial(0)">Part 0: Setting up your Github</a></td></tr>
-              <tr><td><a href="#" onClick="setTutorial(1)">Part 1: Setting up the MainScene (Spritebuilder Part 1)</a></td></tr>
-              <tr><td><a href="#" onClick="setTutorial(2)">Part 2: Setting up the MainScene (Spritebuilder Part 2)</a></td></tr>
-              <tr><td><a href="#" onClick="setTutorial(3)">Part 3: Understanding the Code</a></td></tr> 
-              <tr><td><a href="#" onClick="setTutorial(4)">Part 4: Setting up your MainScene (XCode)</a></td></tr>
-              <tr><td><a href="#" onClick="setTutorial(5)">Part 5: Setting up your FlappyBird (Part 1: Initialization)</a></td></tr>
-              <tr><td><a href="#" onClick="setTutorial(6)">Part 6: Setting up your FlappyBird (Part 2: Touch Began)</a></td></tr>
-              <tr><td><a href="#" onClick="setTutorial(7)">Part 7: Setting up your Obstacles (Part 1: SpriteBuilder)</a></td></tr>
-              <tr><td><a href="#" onClick="setTutorial(8)">Part 8: Setting up your Obstacles (Part 2: Update)</a></td></tr>
-              <tr><td><a href="#" onClick="setTutorial(9)">Part 9: Setting up the Collisions (Game Over Collisions)</a></td></tr>
-              <tr><td><a href="#" onClick="setTutorial(10)">Part 10: Setting up the Collisions (Points Collisions)</a></td></tr>
-              <tr><td><a href="#" onClick="setTutorial(11)">Part 11: Pushing your changes to Github</a></td></tr>
+              <tr><td><a href="#" onClick="setFlappyTutorial(0)">Part 0: Setting up your Github</a></td></tr>
+              <tr><td><a href="#" onClick="setFlappyTutorial(1)">Part 1: Setting up the MainScene (Spritebuilder Part 1)</a></td></tr>
+              <tr><td><a href="#" onClick="setFlappyTutorial(2)">Part 2: Setting up the MainScene (Spritebuilder Part 2)</a></td></tr>
+              <tr><td><a href="#" onClick="setFlappyTutorial(3)">Part 3: Understanding the Code</a></td></tr>
+              <tr><td><a href="#" onClick="setFlappyTutorial(4)">Part 4: Setting up your MainScene (XCode)</a></td></tr>
+              <tr><td><a href="#" onClick="setFlappyTutorial(5)">Part 5: Setting up your FlappyBird (Part 1: Initialization)</a></td></tr>
+              <tr><td><a href="#" onClick="setFlappyTutorial(6)">Part 6: Setting up your FlappyBird (Part 2: Touch Began)</a></td></tr>
+              <tr><td><a href="#" onClick="setFlappyTutorial(7)">Part 7: Setting up your Obstacles (Part 1: SpriteBuilder)</a></td></tr>
+              <tr><td><a href="#" onClick="setFlappyTutorial(8)">Part 8: Setting up your Obstacles (Part 2: Update)</a></td></tr>
+              <tr><td><a href="#" onClick="setFlappyTutorial(9)">Part 9: Setting up the Collisions (Game Over Collisions)</a></td></tr>
+              <tr><td><a href="#" onClick="setFlappyTutorial(10)">Part 10: Setting up the Collisions (Points Collisions)</a></td></tr>
+              <tr><td><a href="#" onClick="setFlappyTutorial(11)">Part 11: Pushing your changes to Github</a></td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"></span>Calculator</a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <table class="table">
+              <tr><td><a href="#" onClick="setCalculatorTutorial(1)">Part 1: Setting up your Github</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(2)">Part 2: Getting the hang of Interface Builder</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(3)">Part 3: Designing your layout with Interface Builder</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(4)">Part 4: Setting up your Constraints</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(50)">Bonus: Explaining @IBOutlet "junk"</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(5)">Part 5: Connecting Storyboard to Code</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(6)">Part 6: Preparing your Calculation Delegate</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(7)">Part 7: Implementing your Buttons</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(8)">Part 8: Testing and Debugging your Calculator</a></td></tr>
             </table>
           </div>
         </div>
@@ -77,10 +136,9 @@ function setTutorial(part) {
 <div class="col-md-9" id="tutorial-content">
   <a name="content-top"></a>
   <script>
-    setTutorial(0);
+    setFlappyTutorial(0);
   </script>
 </div>
 <%= content_tag :div, class: "temp_info", data: {part: @part} do %>
 <% end %>
 </div>
-

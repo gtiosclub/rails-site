@@ -3,5 +3,5 @@ class StaticPagesController < ApplicationController
   end
 
   def tutorials
-  end       
+  end
 end

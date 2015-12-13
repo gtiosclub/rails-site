@@ -1,4 +1,4 @@
-#[CLICK HERE FOR TUTORIALS](www.iosgatech.xyz/tutorials)
+# [CLICK HERE FOR TUTORIALS](www.iosgatech.xyz/tutorials)
 ## Announcements
 
 No particular annoucements. Our first meeting is 1/14, the first week we get back from school.
@@ -19,8 +19,8 @@ Date   | Stuff
 10/22  | Optionals / Properties / Classes / Structs + (Flappy Bird Knockoff Due)
 10/29  | Extensions / Protocols / Enums
 11/05  | Calculator Week 1 Pitches
-11/12  | **MEETING CANCELLED** 
-11/19  | **MEETING CANCELLED** 
+11/12  | **MEETING CANCELLED**
+11/19  | **MEETING CANCELLED**
 11/26  | **THANKSGIVING BREAK**
 12/03  | **DEAD WEEK**
 12/10  | **FINALS WEEK**
@@ -28,18 +28,18 @@ Date   | Stuff
 12/24  | **BREAK**
 12/31  | **BREAK**
 1/7    | **BREAK**
-1/14   | Calculator Week 1 (redo) 
-1/21   | Calculator Week 2 
-1/28   | Calculator Week 3 
-2/4    | iOS Night (6PM - 12AM) 
+1/14   | Calculator Week 1 (redo)
+1/21   | Calculator Week 2
+1/28   | Calculator Week 3
+2/4    | iOS Night (6PM - 12AM)
 2/11   | Makestagram Week 1
 2/18   | Makestagram Week 2
 2/25   | Makestagram Week 3
 3/3    | Makestagram Week 4              
 3/10   | Makestagram Week 5
-3/17   | TBD 
+3/17   | TBD
 3/24   | **SPRING BREAK**
-3/31   | TBD 
+3/31   | TBD
 4/7    | iOS Night (6PM - 12AM)
 4/21   | App Demonstrations and Prizes
 4/28   | **DEAD WEEK**

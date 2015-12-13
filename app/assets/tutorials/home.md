@@ -1,4 +1,4 @@
-# [CLICK HERE FOR TUTORIALS](www.iosgatech.xyz/tutorials)
+# [CLICK HERE FOR TUTORIALS](tutorials)
 ## Announcements
 
 No particular annoucements. Our first meeting is 1/14, the first week we get back from school.

@@ -40,7 +40,7 @@ Date   | Stuff
 3/24   | **SPRING BREAK**
 3/31   | TBD 
 4/7    | iOS Night (6PM - 12AM)
-4/21   | TBD (Contest End)
+4/21   | App Demonstrations and Prizes
 4/28   | **DEAD WEEK**
 5/5    | **FINALS WEEK**
 

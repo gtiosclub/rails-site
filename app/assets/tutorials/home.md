@@ -5,6 +5,16 @@ No particular annoucements. Our first meeting is 1/14, the first week we get bac
 
 Join the facebook group at https://www.facebook.com/groups/iosgatech.
 
+If you want to catch up on Game iOS Tutorials before we get into storyboard next semester here they are:
+
+1. [FlappyBird](tutorials)
+2. [Game of Life](https://www.makeschool.com/tutorials/learn-spritebuilder-by-building-the-game-of-life/what-game-of-life)
+3. [2048](https://www.makeschool.com/tutorials/build-your-own-2048-with-spritebuilder-and-swift/getting-started)
+4. [Peeved Penguins]( https://www.makeschool.com/tutorials/clone-angry-birds-with-spritebuilder-and-swift/getting-started)
+5. [Sushi Neko](https://www.makeschool.com/tutorials/build-a-clone-of-timberman/getting-started)
+
+Cyall next semester!
+
 ## Schedule
 Date   | Stuff
 -------| -------------

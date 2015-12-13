@@ -1,11 +1,8 @@
 ## Announcements
-For meeting on 11/05
-- 5PM Open Help Desk, (Kinda like TA Office hours except I'm not getting credit) Come on by if you want to brainstorm ideas for your app.
-- 6PM Meeting, we're going to start the calculator app today and also finish up the presentation by Cal.
-- You can get started on [2048 Tutorial](https://www.makeschool.com/tutorials/build-your-own-2048-with-spritebuilder-and-swift/getting-started) hosted by MakeSchool
-- Start thinking about game ideas you can implement that are SIMPLE and EASY. You're going to implement them this winter break. I'll announce a prize for the best game soon.
 
-See y'all 5PM/6PM CCB 347!
+No particular annoucements. Our first meeting is 1/14, the first week we get back from school.
+
+Join the facebook group at https://www.facebook.com/groups/iosgatech.
 
 ## Schedule
 Date   | Stuff
@@ -21,8 +18,8 @@ Date   | Stuff
 10/22  | Optionals / Properties / Classes / Structs + (Flappy Bird Knockoff Due)
 10/29  | Extensions / Protocols / Enums
 11/05  | Calculator Week 1 Pitches
-11/12  | Calculator Week 2 Pitches
-11/19  | Calculator Week 3
+11/12  | **MEETING CANCELLED** 
+11/19  | **MEETING CANCELLED** 
 11/26  | **THANKSGIVING BREAK**
 12/03  | **DEAD WEEK**
 12/10  | **FINALS WEEK**
@@ -30,20 +27,20 @@ Date   | Stuff
 12/24  | **BREAK**
 12/31  | **BREAK**
 1/7    | **BREAK**
-1/14   | MVC, View Controllers, Table View Controllers IBActions
-1/21   | Makestagram Week 1
-1/28   | Makestagram Week 2
-2/4    | Makestagram Week 3              
-2/11   | Makestagram Week 4
-2/18   | Lecture TBD, First prototype of app done.
-2/25   | Lecture TBD, 1 on 1 talks, deadline to sign up for Demo Day
-3/3    | Lecture TBD, Pitches
-3/10   | Lecture TBD, Working prototype of app, 50% done, demoable
-3/17   | Lecture TBD, Work day
+1/14   | Calculator Week 1 (redo) 
+1/21   | Calculator Week 2 
+1/28   | Calculator Week 3 
+2/4    | Makestagram Week 1
+2/11   | Makestagram Week 2
+2/18   | Makestagram Week 3
+2/25   | Makestagram Week 4              
+3/3    | Makestagram Week 5
+3/10   | Sponsored Lecture
+3/17   | Sponsored Lecture
 3/24   | **SPRING BREAK**
-3/31   | Lecture TBD, 1 on 1 talks, 75% done
-4/7    | Working day, 90% done
-4/21   | DEMO DAY, 100% done
+3/31   | TBD 
+4/7    | TBD
+4/21   | TBD
 4/28   | **DEAD WEEK**
 5/5    | **FINALS WEEK**
 

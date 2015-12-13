@@ -30,17 +30,17 @@ Date   | Stuff
 1/14   | Calculator Week 1 (redo) 
 1/21   | Calculator Week 2 
 1/28   | Calculator Week 3 
-2/4    | Makestagram Week 1
-2/11   | Makestagram Week 2
-2/18   | Makestagram Week 3
-2/25   | Makestagram Week 4              
-3/3    | Makestagram Week 5
-3/10   | Sponsored Lecture
-3/17   | Sponsored Lecture
+2/4    | iOS Night (6PM - 12AM) 
+2/11   | Makestagram Week 1
+2/18   | Makestagram Week 2
+2/25   | Makestagram Week 3
+3/3    | Makestagram Week 4              
+3/10   | Makestagram Week 5
+3/17   | TBD 
 3/24   | **SPRING BREAK**
 3/31   | TBD 
-4/7    | TBD
-4/21   | TBD
+4/7    | iOS Night (6PM - 12AM)
+4/21   | TBD (Contest End)
 4/28   | **DEAD WEEK**
 5/5    | **FINALS WEEK**
 

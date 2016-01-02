@@ -42,12 +42,12 @@ Date   | Stuff
 1/21   | Calculator Week 2
 1/28   | Calculator Week 3
 2/4    | iOS Night (6PM - 12AM)
-2/11   | Makestagram Week 1
-2/18   | Makestagram Week 2
-2/25   | Makestagram Week 3
-3/3    | Makestagram Week 4              
-3/10   | Makestagram Week 5
-3/17   | TBD
+2/11   | AirWatch Special Presentation 
+2/18   | Makestagram Week 1
+2/25   | Makestagram Week 2
+3/3    | Makestagram Week 3
+3/10   | Makestagram Week 4              
+3/17   | Makestagram Week 5
 3/24   | **SPRING BREAK**
 3/31   | TBD
 4/7    | iOS Night (6PM - 12AM)

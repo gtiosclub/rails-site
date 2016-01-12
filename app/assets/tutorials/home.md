@@ -1,7 +1,9 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
 ## Announcements
 
-No particular annoucements. Our first meeting is 1/14, the first week we get back from school.
+<strike>No particular annoucements. Our first meeting is 1/14, the first week we get back from school.</strike>
+
+THERE IS NO MEETING THE FIRST WEEK OF SCHOOL. FIRST MEETING IS 1/21 NOT 1/14 
 
 Join the facebook group at https://www.facebook.com/groups/iosgatech.
 
@@ -38,10 +40,10 @@ Date   | Stuff
 12/24  | **BREAK**
 12/31  | **BREAK**
 1/7    | **BREAK**
-1/14   | Calculator Week 1 (redo)
-1/21   | Calculator Week 2
-1/28   | Calculator Week 3
-2/4    | iOS Night (6PM - 12AM)
+1/14   | **NO MEETING** 
+1/21   | Calculator Week 1 (redo)
+1/28   | Calculator Week 2
+2/4    | Calculator Week 3
 2/11   | AirWatch Special Presentation 
 2/18   | Makestagram Week 1
 2/25   | Makestagram Week 2

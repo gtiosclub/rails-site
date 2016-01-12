@@ -108,4 +108,3 @@ We implemented `UITableViewDataSource` as a part of our `ViewController` and con
 We'll make the table view reload when it needs to, and add in an animation.
 
 When you're done go to the <a href="#top" onclick="setCalculatorTutorial(12)">next step, Part 12</a>
-#### [Part 12: Reloading and Animating your Table View](../P12/part12.md)

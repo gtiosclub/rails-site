@@ -93,6 +93,7 @@ Now we have all of our code connections established, and we're ready to make thi
 You can connect Storyboard objects to code (both variables and functions) by using a control-drag across split-screened windows.
 
 ### Next Time
-We set up the protocol that will be handling the calculator's calculations.
+We set up the protocol that will be handling the calculator's calculations. I highly recommend looking into the bonus section as that explains some really important notes about IBOutlets.
 
-When you're done go to the <a href="#top" onclick="setCalculatorTutorial(6)">next step, Part 6</a>
+If you want, you can read up on the IBOutlets <a href="#top" onclick="setCalculatorTutorial(50)"> bonus section,</a>
+Otherwise you can go to the <a href="#top" onclick="setCalculatorTutorial(6)">next step, Part 6</a>

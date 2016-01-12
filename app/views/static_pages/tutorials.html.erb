@@ -40,6 +40,12 @@ function setFlappyTutorial(part) {
     case 11:
       $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 11}) %>");
       break;
+    case 12:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 12}) %>");
+      break;
+    case 13:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'flappybird', part: 13}) %>");
+      break;
   }
 }
 
@@ -74,6 +80,21 @@ function setCalculatorTutorial(part) {
       break;
     case 8:
       $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 8}) %>");
+      break;
+    case 9:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 9}) %>");
+      break;
+    case 10:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 10}) %>");
+      break;
+    case 11:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 11}) %>");
+      break;
+    case 12:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 12}) %>");
+      break;
+    case 13:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'calculator', part: 13}) %>");
       break;
   }
 }
@@ -121,11 +142,16 @@ function setCalculatorTutorial(part) {
               <tr><td><a href="#" onClick="setCalculatorTutorial(2)">Part 2: Getting the hang of Interface Builder</a></td></tr>
               <tr><td><a href="#" onClick="setCalculatorTutorial(3)">Part 3: Designing your layout with Interface Builder</a></td></tr>
               <tr><td><a href="#" onClick="setCalculatorTutorial(4)">Part 4: Setting up your Constraints</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(50)">Bonus: Explaining @IBOutlet "junk"</a></td></tr>
               <tr><td><a href="#" onClick="setCalculatorTutorial(5)">Part 5: Connecting Storyboard to Code</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(50)">Bonus: Explaining @IBOutlet "junk"</a></td></tr>
               <tr><td><a href="#" onClick="setCalculatorTutorial(6)">Part 6: Preparing your Calculation Delegate</a></td></tr>
               <tr><td><a href="#" onClick="setCalculatorTutorial(7)">Part 7: Implementing your Buttons</a></td></tr>
               <tr><td><a href="#" onClick="setCalculatorTutorial(8)">Part 8: Testing and Debugging your Calculator</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(9)">Part 9: Preparing your TableViewController</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(10)">Part 10: Implementing your Custom TableViewCell</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(11)">Part 11: Implementing your TableViewDataSource</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(12)">Part 12: Reloading and Animating your Table View</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(13)">Part 13: Pushing your changes to Github</a></td></tr>
             </table>
           </div>
         </div>

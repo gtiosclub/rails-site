@@ -38,6 +38,6 @@ This prevents issues like retain cycles. I'm not 100% sure what a retain cycle i
 
 `!` is necessary because the variable starts as nil. It *could* be an `?` instead, but that adds all of the boilerplate of dealing with Optionals. `!` denotes an implicitly unwrapped optional. This means that, yes, it is possible for the object to be nil, but we are *assuming* that it is not nil, so we can treat it like a regular non-optional type. This works well because the reference is immediately set to an actual value. This just happens too late in the lifecycle for a standard non-optional type to work 100% of the time.
 
-`var` is necessary because we change the variable from nil to whatever it's supposed to be. If we used a `let`, then the variable would be immutable and could not change from nil, which is definitely not what we want.
+`var` is necessary because we change the variable from nil to whatever it's supposed to be. If we used a `let`, then the variable would be immutable and could not change from nil at the appropriate point in the lifecycle, which is definitely not what we want.
 
 When you're done go to the <a href="#top" onclick="setCalculatorTutorial(5)">next step, Part 5</a>

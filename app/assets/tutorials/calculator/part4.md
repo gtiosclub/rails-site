@@ -134,7 +134,6 @@ If it didn't -- welcome to the life of a Software Engineer. Sometimes stuff just
 Constraints are about unambiguously defining relationships between objects on screen. You can set positional constraints relative to objects nearby with the Tie Fighter and set up other dynamic relationships using control-drag.
 
 ### Next Time
-We will learn how to connect objects in the Storyboard to variable and functions in the code. I highly recommend looking into the bonus section as that explains some really important notes about IBOutlets.
+We will learn how to connect objects in the Storyboard to variable and functions in the code. 
 
-If you want, you can read up on the IBOutlets <a href="#top" onclick="setCalculatorTutorial(50)"> bonus section,</a>
-Otherwise you can go to the <a href="#top" onclick="setCalculatorTutorial(5)">next step, Part 5</a>
+When you're done go to the <a href="#top" onclick="setCalculatorTutorial(5)">next step, Part 5</a>

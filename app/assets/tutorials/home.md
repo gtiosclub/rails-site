@@ -3,9 +3,12 @@
 
 <strike>No particular annoucements. Our first meeting is 1/14, the first week we get back from school.</strike>
 
-THERE IS NO MEETING THE FIRST WEEK OF SCHOOL. FIRST MEETING IS 1/21 NOT 1/14 
+THERE IS NO MEETING THE FIRST WEEK OF SCHOOL. FIRST MEETING IS 1/21 NOT 1/14
+6PM @ CCB 347
 
 Join the facebook group at https://www.facebook.com/groups/iosgatech.
+
+Since Spritebuilder is no longer available on the appstore and the build on the github repository doesn't compile, if you would like a working version of Spritebuilder download it [here.](https://drive.google.com/file/d/0ByZn22RdraGhcVdfaDRuRzg0Nkk/view?usp=sharing)
 
 If you want to catch up on Game iOS Tutorials before we get into storyboard next semester here they are:
 

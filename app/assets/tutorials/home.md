@@ -1,10 +1,7 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
 ## Announcements
 
-<strike>No particular annoucements. Our first meeting is 1/14, the first week we get back from school.</strike>
-
-THERE IS NO MEETING THE FIRST WEEK OF SCHOOL. FIRST MEETING IS 1/21 NOT 1/14
-6PM @ CCB 347
+There is no meeting next week (week of career fair) Our next meeting is Feburary 4th 6PM @CCB347 
 
 Join the facebook group at https://www.facebook.com/groups/iosgatech.
 
@@ -45,8 +42,8 @@ Date   | Stuff
 1/7    | **BREAK**
 1/14   | **NO MEETING** 
 1/21   | Calculator Week 1 (redo)
-1/28   | Calculator Week 2
-2/4    | Calculator Week 3
+1/28   | **NO MEETING DUE TO CAREER FAIR** 
+2/4    | Calculator Week 2
 2/11   | AirWatch Special Presentation 
 2/18   | Corporate Lecture
 2/25   | Corporate Lecture

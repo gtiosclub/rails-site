@@ -1,13 +1,22 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
 ## Announcements
 
-There is no meeting next week (week of career fair) Our next meeting is Feburary 4th 6PM @CCB347 
+We just finished the entire Calculator tutorial, so go ahead and finish that at the link above.
+
+The next two weeks we have AirWatch and StateFarm coming for lectures, both 6PM at CCB 347
+
+- 2/11 AirWatch Lecture: Debugging with breakpoints and Memory debugger
+- 2/18 StateFarm Lecture: AutoLayout and Constraints
+
+At these events there will be awesome food! TINDRUM! Food will be available on a first come first serve basis, and there's only enough for 50 people.
+
+Cyall next week at 6PM @CCB 347
 
 Join the facebook group at https://www.facebook.com/groups/iosgatech.
 
 Since Spritebuilder is no longer available on the appstore and the build on the github repository doesn't compile, if you would like a working version of Spritebuilder download it [here.](https://drive.google.com/file/d/0ByZn22RdraGhcVdfaDRuRzg0Nkk/view?usp=sharing)
 
-If you want to catch up on Game iOS Tutorials before we get into storyboard next semester here they are:
+If you want to catch up on Game iOS Tutorials before we get into storyboard here they are:
 
 1. [FlappyBird](tutorials)
 2. [Game of Life](https://www.makeschool.com/tutorials/learn-spritebuilder-by-building-the-game-of-life/what-game-of-life)

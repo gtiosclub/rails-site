@@ -55,13 +55,13 @@ Date   | Stuff
 2/4    | Calculator Week 2
 2/11   | AirWatch Special Presentation 
 2/18   | StateFarm Special Presentation 
-2/25   | Corporate Lecture
-3/3    | Makestagram Week 1
-3/10   | Makestagram Week 2
-3/17   | Makestagram Week 3
+2/25   | Notes Tutorial 1
+3/3    | Notes Tutorial 2
+3/10   | Makestagram Week 1
+3/17   | Makestagram Week 2
 3/24   | **SPRING BREAK**
-3/31   | Makestagram Week 4              
-4/7    | Makestagram Week 5
+3/31   | Makestagram Week 3              
+4/7    | Makestagram Week 4
 4/21   | App Demonstrations and Prizes
 4/28   | **DEAD WEEK**
 5/5    | **FINALS WEEK**

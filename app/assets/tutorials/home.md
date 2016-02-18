@@ -1,12 +1,10 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
 ## Announcements
 
-We just finished the entire Calculator tutorial, so go ahead and finish that at the link above.
-
-The next two weeks we have AirWatch and StateFarm coming for lectures, both 6PM at CCB 347
+StateFarm has cancelled the 2/18 event. We're resuming normal meeting plans with Notes Tutorial hosted on MakeSchool.
 
 - 2/11 AirWatch Lecture: Debugging with breakpoints and Memory debugger
-- 2/18 StateFarm Lecture: AutoLayout and Constraints
+- <strike>2/18 StateFarm Lecture: AutoLayout and Constraints</strike>**CANCELLED**  => normal meeting instead
 
 At these events there will be awesome food! TINDRUM! Food will be available on a first come first serve basis, and there's only enough for 50 people.
 
@@ -54,9 +52,9 @@ Date   | Stuff
 1/28   | **NO MEETING DUE TO CAREER FAIR** 
 2/4    | Calculator Week 2
 2/11   | AirWatch Special Presentation 
-2/18   | StateFarm Special Presentation 
-2/25   | Notes Tutorial 1
-3/3    | Notes Tutorial 2
+2/18   | <strike>StateFarm Special Presentation</strike>Notes Tutorial 1 
+2/25   | Notes Tutorial 2
+3/3    | Notes Tutorial 3
 3/10   | Makestagram Week 1
 3/17   | Makestagram Week 2
 3/24   | **SPRING BREAK**

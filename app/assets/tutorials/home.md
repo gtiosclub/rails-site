@@ -1,12 +1,17 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
 ## Announcements
 
-StateFarm has cancelled the 2/18 event. We're resuming normal meeting plans with Notes Tutorial hosted on MakeSchool.
+We completed the first 3 steps of the MakeSchool Notes tutorial. Go and catch up here:
 
-- 2/11 AirWatch Lecture: Debugging with breakpoints and Memory debugger
-- <strike>2/18 StateFarm Lecture: AutoLayout and Constraints</strike>**CANCELLED**  => normal meeting instead
+- [MakeSchool Notes](https://www.makeschool.com/tutorials/learn-how-to-build-make-school-notes/getting-started)
 
-At these events there will be awesome food! TINDRUM! Food will be available on a first come first serve basis, and there's only enough for 50 people.
+If you want to suggest a game idea or app idea to the "pile of ideas":
+
+- [Submit it here](https://docs.google.com/forms/d/1BjbHBrdtldlDpZ4R0w1lRvz6DUSEtl5Y1vQ2kQB9jW4/viewform?c=0&w=1)
+
+If you want a challenge for iOS development and you have a lot of spare time:
+
+- [MakeSchool Instagram](https://www.makeschool.com/tutorials/build-a-photo-sharing-app-part-1/getting-started)
 
 Cyall next week at 6PM @CCB 347
 

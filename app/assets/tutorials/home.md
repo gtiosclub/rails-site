@@ -1,7 +1,7 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
 ## Announcements
 
-We completed the first 3 steps of the MakeSchool Notes tutorial. Go and catch up here:
+We completed the first 4 steps of the MakeSchool Notes tutorial. Go and catch up here:
 
 - [MakeSchool Notes](https://www.makeschool.com/tutorials/learn-how-to-build-make-school-notes/getting-started)
 

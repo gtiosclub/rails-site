@@ -1,5 +1,6 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
 ## Announcements
+STATE FARM PRESENTATION this week on Thursday March 10th. Andrew from State Farm will come and talk about AutoLayouts! Come and learn how to organize your views
 
 We completed the first 4 steps of the MakeSchool Notes tutorial. Go and catch up here:
 

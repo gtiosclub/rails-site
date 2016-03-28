@@ -1,6 +1,8 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
 ## Announcements
-STATE FARM PRESENTATION this week on Thursday March 10th. Andrew from State Farm will come and talk about AutoLayouts! Come and learn how to organize your views
+Nothing in particular. Remember to keep working on your apps for the prizes! The deadline for the contest is the end of April, so keep working on them!
+
+6PM @ CCB 347. I'll be there 5PM as well.
 
 We completed the first 4 steps of the MakeSchool Notes tutorial. Go and catch up here:
 
@@ -61,11 +63,11 @@ Date   | Stuff
 2/18   | <strike>StateFarm Special Presentation</strike>Notes Tutorial 1 
 2/25   | Notes Tutorial 2
 3/3    | Notes Tutorial 3
-3/10   | Makestagram Week 1
-3/17   | Makestagram Week 2
+3/10   | Independent Study 
+3/17   | Independent Study
 3/24   | **SPRING BREAK**
-3/31   | Makestagram Week 3              
-4/7    | Makestagram Week 4
+3/31   | Independent Study
+4/7    | Independent Study
 4/21   | App Demonstrations and Prizes
 4/28   | **DEAD WEEK**
 5/5    | **FINALS WEEK**

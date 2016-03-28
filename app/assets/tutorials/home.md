@@ -4,7 +4,7 @@ Nothing in particular. Remember to keep working on your apps for the prizes! The
 
 6PM @ CCB 347. I'll be there 5PM as well.
 
-We completed the first 4 steps of the MakeSchool Notes tutorial. Go and catch up here:
+We completed the MakeSchool Notes tutorial. Go and catch up here:
 
 - [MakeSchool Notes](https://www.makeschool.com/tutorials/learn-how-to-build-make-school-notes/getting-started)
 

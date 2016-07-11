@@ -35,43 +35,42 @@ Cyall next semester!
 ## Schedule
 Date   | Stuff
 -------| -------------
-8/27   | Introduction, App Demonstrations, Swift: Syntax, Implementation, and Optionals
-9/03   | Flappy Bird Week 1
-9/10   | Flappy Bird Week 2
-9/17   | **NO MEETING DUE TO CAREER FAIR**
-9/24   | Flappy Bird Week 3 + (Flappy Bird Knockoff Start )
-10/01  | Game Of Life Part 1
-10/08  | Game Of Life Part 2
-10/15  | John Cena Tutorial (CCParticleSystems, CCActions)
-10/22  | Optionals / Properties / Classes / Structs + (Flappy Bird Knockoff Due)
-10/29  | Extensions / Protocols / Enums
-11/05  | Calculator Week 1 Pitches
-11/12  | **MEETING CANCELLED**
-11/19  | **MEETING CANCELLED**
-11/26  | **THANKSGIVING BREAK**
-12/03  | **DEAD WEEK**
-12/10  | **FINALS WEEK**
-12/17  | **BREAK**
-12/24  | **BREAK**
-12/31  | **BREAK**
-1/7    | **BREAK**
-1/14   | **NO MEETING** 
-1/21   | Calculator Week 1 (redo)
-1/28   | **NO MEETING DUE TO CAREER FAIR** 
-2/4    | Calculator Week 2
-2/11   | AirWatch Special Presentation 
-2/18   | <strike>StateFarm Special Presentation</strike>Notes Tutorial 1 
-2/25   | Notes Tutorial 2
-3/3    | Notes Tutorial 3
-3/10   | Independent Study 
-3/17   | Independent Study
-3/24   | **SPRING BREAK**
-3/31   | Independent Study
-4/7    | Independent Study
-4/14   | Independent Study
-4/21   | App Demonstrations and Prizes
-4/28   | **DEAD WEEK**
-5/5    | **FINALS WEEK**
+8/30   | 
+9/6    | 
+9/13   | 
+9/20   | 
+9/27   | 
+10/4   | 
+10/11  | **STUDENT RECESS** 
+10/18  | 
+10/25  | 
+11/1   | 
+11/8   | 
+11/15  | 
+11/22  | **THANKSGIVING BREAK**
+11/29  | 
+12/6   | **DEADWEEK**
+12/13  | **FINALS**
+12/20  | **WINTER BREAK**
+12/27  | **WINTER BREAK**
+1/3    | **WINTER BREAK**
+1/10   | 
+1/17   | 
+1/24   | 
+1/31   | 
+2/7    | 
+2/14   | 
+2/21   | 
+2/28   | 
+3/7    | 
+3/14   | 
+3/21   | **SPRING BREAK**
+3/28   | 
+4/4    | 
+4/11   | 
+4/18   | Demo Day
+4/25   | **FINALS**
+5/2    | **FINALS**
 
 ## For Corporate Sponsors
 If you would like to work with us, please send a quick email to iosgatech@gmail.com and we'll be more than happy to work with you.

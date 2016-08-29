@@ -1,36 +1,17 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
+# [CLICK HERE FOR FACEBOOK GROUP PAGE](https://www.facebook.com/groups/iosgatech)
 ## Announcements
-Nothing in particular. Remember to keep working on your apps for the prizes! The deadline for the contest is the end of April, so keep working on them!
+Hey everyone, welcome back to another year of iOS Club!
 
-6PM @ CCB 347. I'll be there 5PM as well.
+If you haven't join the [iOS Club Facebook page](https://www.facebook.com/groups/iosgatech). Most of the information and annoucements will be on there!
 
-We completed the MakeSchool Notes tutorial. Go and catch up here:
+[https://www.facebook.com/groups/iosgatech](https://www.facebook.com/groups/iosgatech)
 
-- [MakeSchool Notes](https://www.makeschool.com/tutorials/learn-how-to-build-make-school-notes/getting-started)
+Our first meeting is 8/30 6PM @ Howey L3. After that, every single meeting will be at 6PM Tuesdays @ Klaus 1443.
 
-If you want to suggest a game idea or app idea to the "pile of ideas":
+If possible, please come prepared with a macOS computer and XCode 7 Installed. We will be using Swift 2 until Swift 3 comes out.
 
-- [Submit it here](https://docs.google.com/forms/d/1BjbHBrdtldlDpZ4R0w1lRvz6DUSEtl5Y1vQ2kQB9jW4/viewform?c=0&w=1)
-
-If you want a challenge for iOS development and you have a lot of spare time:
-
-- [MakeSchool Instagram](https://www.makeschool.com/tutorials/build-a-photo-sharing-app-part-1/getting-started)
-
-Cyall next week at 6PM @CCB 347
-
-Join the facebook group at https://www.facebook.com/groups/iosgatech.
-
-Since Spritebuilder is no longer available on the appstore and the build on the github repository doesn't compile, if you would like a working version of Spritebuilder download it [here.](https://drive.google.com/file/d/0ByZn22RdraGhcVdfaDRuRzg0Nkk/view?usp=sharing)
-
-If you want to catch up on Game iOS Tutorials before we get into storyboard here they are:
-
-1. [FlappyBird](tutorials)
-2. [Game of Life](https://www.makeschool.com/tutorials/learn-spritebuilder-by-building-the-game-of-life/what-game-of-life)
-3. [2048](https://www.makeschool.com/tutorials/build-your-own-2048-with-spritebuilder-and-swift/getting-started)
-4. [Peeved Penguins]( https://www.makeschool.com/tutorials/clone-angry-birds-with-spritebuilder-and-swift/getting-started)
-5. [Sushi Neko](https://www.makeschool.com/tutorials/build-a-clone-of-timberman/getting-started)
-
-Cyall next semester!
+Cyall there!
 
 ## Schedule
 Date   | Stuff

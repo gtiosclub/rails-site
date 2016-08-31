@@ -1,35 +1,35 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
 # [CLICK HERE FOR FACEBOOK GROUP PAGE](https://www.facebook.com/groups/iosgatech)
 ## Announcements
-Hey everyone, welcome back to another year of iOS Club!
+Hey everyone, thanks for coming out to the first meeting on 8/30! We had a great turnout and we're excited for another great year.
 
 If you haven't join the [iOS Club Facebook page](https://www.facebook.com/groups/iosgatech). Most of the information and annoucements will be on there!
 
 [https://www.facebook.com/groups/iosgatech](https://www.facebook.com/groups/iosgatech)
 
-Our first meeting is 8/30 6PM @ Howey L3. After that, every single meeting will be at 6PM Tuesdays @ Klaus 1443.
+Next week we'll be building your first iOS Application, we moved it up the list because we felt it was important to give you guys exposure, so we're gonna build a very basic number guessing application. The tutorial should be up on the website soon, but if not I'm going to try to see if we can livestream the meeting.
 
-If possible, please come prepared with a macOS computer and XCode 7 Installed. We will be using Swift 2 until Swift 3 comes out.
+Remember, next week's meeting will be in Klaus 1443, not Howey L3.
 
-Cyall there!
+Cyall there! 6PM Tuesday @ Klaus 1443
 
 ## Schedule
 Date   | Stuff
 -------| -------------
-8/30   | 
-9/6    | 
-9/13   | 
-9/20   | 
-9/27   | 
-10/4   | 
+8/30   | Introduction
+9/6    | Guessing App
+9/13   | AirWatch Presentation + Swift Sprint (let, var, control, optionals)
+9/20   | TBD
+9/27   | TBD
+10/4   | TBD
 10/11  | **STUDENT RECESS** 
-10/18  | 
-10/25  | 
-11/1   | 
-11/8   | 
-11/15  | 
+10/18  | TBD
+10/25  | TBD
+11/1   | TBD
+11/8   | TBD
+11/15  | TBD
 11/22  | **THANKSGIVING BREAK**
-11/29  | 
+11/29  | TBD
 12/6   | **DEADWEEK**
 12/13  | **FINALS**
 12/20  | **WINTER BREAK**

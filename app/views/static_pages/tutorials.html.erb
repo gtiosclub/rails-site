@@ -1,4 +1,29 @@
 <script>
+function setGuessTheNumberTutorial(part) {
+  //can't use js variables in rails methods
+  //too lazy to use ajax
+  //i deserve to be stoned
+  switch(part) {
+    case 1:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'guessthenumber', part: 1}) %>");
+      break;
+    case 2:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'guessthenumber', part: 2}) %>");
+      break;
+    case 3:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'guessthenumber', part: 3}) %>");
+      break;
+    case 4:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'guessthenumber', part: 4}) %>");
+      break;
+    case 5:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'guessthenumber', part: 5}) %>");
+      break;
+    case 6:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'guessthenumber', part: 6}) %>");
+      break;
+  }
+}
 function setFlappyTutorial(part) {
   //can't use js variables in rails methods
   //too lazy to use ajax
@@ -99,10 +124,31 @@ function setCalculatorTutorial(part) {
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"></span>Flappy Bird</a>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"></span>Guess The Number</a>
           </h4>
         </div>
         <div id="collapseOne" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <table class="table">
+              <tr><td><a href="#" onClick="setGuessTheNumberTutorial(1)">Part 1: Getting Started</a></td></tr>
+              <tr><td><a href="#" onClick="setGuessTheNumberTutorial(2)">Part 2: Setting up your View</a></td></tr>
+              <tr><td><a href="#" onClick="setGuessTheNumberTutorial(3)">Part 3: Generate Random Numbers</a></td></tr>
+              <tr><td><a href="#" onClick="setGuessTheNumberTutorial(4)">Part 4: Writing the Game Logic</a></td></tr>
+              <tr><td><a href="#" onClick="setGuessTheNumberTutorial(5)">Part 5: Adding Alerts!</a></td></tr>
+              <tr><td><a href="#" onClick="setGuessTheNumberTutorial(6)">Part 6: Finishing Up (Github)</a></td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"></span>Flappy Bird (Legacy)</a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse in">
           <div class="panel-body">
             <table class="table">
               <tr><td><a href="#" onClick="setFlappyTutorial(0)">Part 0: Setting up your Github</a></td></tr>
@@ -126,10 +172,10 @@ function setCalculatorTutorial(part) {
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"></span>Calculator</a>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"></span>Calculator (Legacy)</a>
           </h4>
         </div>
-        <div id="collapseTwo" class="panel-collapse collapse in">
+        <div id="collapseThree" class="panel-collapse collapse in">
           <div class="panel-body">
             <table class="table">
               <tr><td><a href="#" onClick="setCalculatorTutorial(1)">Part 1: Setting up your Github</a></td></tr>
@@ -156,7 +202,7 @@ function setCalculatorTutorial(part) {
 <div class="col-md-9" id="tutorial-content">
   <a name="content-top"></a>
   <script>
-    setFlappyTutorial(0);
+    setGuessTheNumberTutorial(1);
   </script>
 </div>
 <%= content_tag :div, class: "temp_info", data: {part: @part} do %>

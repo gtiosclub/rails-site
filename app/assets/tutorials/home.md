@@ -19,9 +19,9 @@ Date   | Stuff
 8/30   | Introduction
 9/6    | Guessing App (Have XCode 7 ready to go on your macOS system)
 9/13   | AirWatch Presentation + Swift Sprint (let, var, control, optionals)
-9/20   | Cal-Culator Part 1
-9/27   | Cal-Culator Part 2
-10/4   | TBD
+9/20   | **CAREER FAIR WEEK**
+9/27   | Cal-culator Part 1
+10/4   | Cal-culator Part 2
 10/11  | **STUDENT RECESS**
 10/18  | TBD
 10/25  | TBD

@@ -36,3 +36,6 @@ bower.json
 
 # Ignore vim generated files
 *.swp
+
+#Ignore .DS_Store
+*.DS_Store

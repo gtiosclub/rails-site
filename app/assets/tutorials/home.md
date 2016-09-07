@@ -3,7 +3,7 @@
 ## Announcements
 Hey everyone, thanks for coming out to the second meeting on 9/6! We built the Guess the Number App and for some of you this was your first iOS App so thats pretty exciting!
 
-If you haven't join the [iOS Club Facebook page](https://www.facebook.com/groups/iosgatech). Most of the information and annoucements will be on there!
+If you haven't joined the [iOS Club Facebook page](https://www.facebook.com/groups/iosgatech). Most of the information and annoucements will be on there!
 
 [https://www.facebook.com/groups/iosgatech](https://www.facebook.com/groups/iosgatech)
 

@@ -1,13 +1,13 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
 # [CLICK HERE FOR FACEBOOK GROUP PAGE](https://www.facebook.com/groups/iosgatech)
 ## Announcements
-Hey everyone, thanks for coming out to the first meeting on 8/30! We had a great turnout and we're excited for another great year.
+Hey everyone, thanks for coming out to the second meeting on 9/6! We built the Guess the Number App and for some of you this was your first iOS App so thats pretty exciting!
 
 If you haven't join the [iOS Club Facebook page](https://www.facebook.com/groups/iosgatech). Most of the information and annoucements will be on there!
 
 [https://www.facebook.com/groups/iosgatech](https://www.facebook.com/groups/iosgatech)
 
-Next week we'll be building your first iOS Application, we moved it up the list because we felt it was important to give you guys exposure, so we're gonna build a very basic number guessing application. The tutorial is on the website and we should be able to livestream our meetings for those of you who can't attend (1331 recitation peeps :c).
+Next week we'll have a short presentation by Airwatch about their career opportunities and a little bit of a resume/pitch presentation. Afterwards, we're going to go hard and really teach you guys one of the hardest concepts to grasp in Swift, **Optionals**.
 
 Remember, next week's meeting will be in Klaus 1443, not Howey L3.
 
@@ -17,8 +17,8 @@ Cyall there! 6PM Tuesday @ Klaus 1443
 Date   | Stuff
 -------| -------------
 8/30   | Introduction
-9/6    | Guessing App (Have XCode 7 ready to go on your macOS system)
-9/13   | AirWatch Presentation + Swift Sprint (let, var, control, optionals)
+9/6    | Guessing App (Done! Check tutorials to catch up)
+9/13   | AirWatch Presentation + Optionals
 9/20   | **CAREER FAIR WEEK**
 9/27   | Cal-culator Part 1
 10/4   | Cal-culator Part 2

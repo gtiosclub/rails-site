@@ -7,7 +7,7 @@ If you haven't joined the [iOS Club Facebook page](https://www.facebook.com/grou
 
 [https://www.facebook.com/groups/iosgatech](https://www.facebook.com/groups/iosgatech)
 
-Next week we'll have a short presentation by Airwatch about their career opportunities and a little bit of a resume/pitch presentation. Afterwards, we're going to go hard and really teach you guys one of the hardest concepts to grasp in Swift, **Optionals**.
+Next week we'll have a short presentation by Airwatch about how to evaluate and negotiate a job offer. Afterwards, we're going to go hard and really teach you guys one of the hardest concepts to grasp in Swift, **Optionals**.
 
 Remember, next week's meeting will be in Klaus 1443, not Howey L3.
 

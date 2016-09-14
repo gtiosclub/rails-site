@@ -1,17 +1,15 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
 # [CLICK HERE FOR FACEBOOK GROUP PAGE](https://www.facebook.com/groups/iosgatech)
 ## Announcements
-Hey everyone, thanks for coming out to the second meeting on 9/6! We built the Guess the Number App and for some of you this was your first iOS App so thats pretty exciting!
+Hey everyone, thanks for coming out to the third meeting on 9/13! We had an airwatch presentation about how to evaluate and negotiate a job offer, and then we taught optionals. I have a set of challenges that we didn't have time to complete up on [https://www.github.com/iosgatech/InterviewQuestions](https://www.github.com/iosgatech/InterviewQuestions). If you want some practice with optionals, I'd recommend looking through the solutions section.
+
+**SINCE NEXT WEEK IS CAREER FAIR WEEK, THERE IS NO MEETING.** We resume meetings with Cal-culator Part 1 on 9/27 the week after career fair week.
+
+Cyall there! 9/27, 6PM Tuesday @ Klaus 1443
 
 If you haven't joined the [iOS Club Facebook page](https://www.facebook.com/groups/iosgatech). Most of the information and annoucements will be on there!
 
 [https://www.facebook.com/groups/iosgatech](https://www.facebook.com/groups/iosgatech)
-
-Next week we'll have a short presentation by Airwatch about how to evaluate and negotiate a job offer. Afterwards, we're going to go hard and really teach you guys one of the hardest concepts to grasp in Swift, **Optionals**.
-
-Remember, next week's meeting will be in Klaus 1443, not Howey L3.
-
-Cyall there! 6PM Tuesday @ Klaus 1443
 
 ## Schedule
 Date   | Stuff

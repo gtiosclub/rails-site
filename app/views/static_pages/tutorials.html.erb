@@ -124,6 +124,35 @@ function setCalculatorTutorial(part) {
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"></span>Calculator (2016 Remake)</a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <table class="table">
+              <tr><td><a href="#" onClick="setCalculatorTutorial(1)">Part 1: Creating your Xcode Project</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(2)">Part 2: Getting the hang of Interface Builder</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(3)">Part 3: Designing your layout with Interface Builder</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(4)">Part 4: Setting up your Constraints</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(5)">Part 5: Connecting Storyboard to Code</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(50)">Bonus: Explaining @IBOutlet "junk"</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(6)">Part 6: Preparing your Calculation Delegate</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(7)">Part 7: Implementing your Buttons</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(8)">Part 8: Testing and Debugging your Calculator</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(9)">Part 9: Preparing your TableViewController</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(10)">Part 10: Implementing your Custom TableViewCell</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(11)">Part 11: Implementing your TableViewDataSource</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(12)">Part 12: Reloading and Animating your Table View</a></td></tr>
+              <tr><td><a href="#" onClick="setCalculatorTutorial(13)">Part 13: Pushing your changes to Github</a></td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"></span>Guess The Number</a>
           </h4>
         </div>
@@ -168,41 +197,12 @@ function setCalculatorTutorial(part) {
         </div>
       </div>
     </div>
-    <div class="panel-group" id="accordion">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"></span>Calculator (Legacy)</a>
-          </h4>
-        </div>
-        <div id="collapseThree" class="panel-collapse collapse in">
-          <div class="panel-body">
-            <table class="table">
-              <tr><td><a href="#" onClick="setCalculatorTutorial(1)">Part 1: Setting up your Github</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(2)">Part 2: Getting the hang of Interface Builder</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(3)">Part 3: Designing your layout with Interface Builder</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(4)">Part 4: Setting up your Constraints</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(5)">Part 5: Connecting Storyboard to Code</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(50)">Bonus: Explaining @IBOutlet "junk"</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(6)">Part 6: Preparing your Calculation Delegate</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(7)">Part 7: Implementing your Buttons</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(8)">Part 8: Testing and Debugging your Calculator</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(9)">Part 9: Preparing your TableViewController</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(10)">Part 10: Implementing your Custom TableViewCell</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(11)">Part 11: Implementing your TableViewDataSource</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(12)">Part 12: Reloading and Animating your Table View</a></td></tr>
-              <tr><td><a href="#" onClick="setCalculatorTutorial(13)">Part 13: Pushing your changes to Github</a></td></tr>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 <%= @part %>
 <div class="col-md-9" id="tutorial-content">
   <a name="content-top"></a>
   <script>
-    setGuessTheNumberTutorial(1);
+    setCalculatorTutorial(1);
   </script>
 </div>
 <%= content_tag :div, class: "temp_info", data: {part: @part} do %>

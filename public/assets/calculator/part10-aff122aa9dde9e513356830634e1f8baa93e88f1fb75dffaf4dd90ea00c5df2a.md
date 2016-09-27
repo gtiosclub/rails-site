@@ -2,7 +2,7 @@
 
 We have our `UITableView` in place, but it still needs rows, or cells.
 
-### Prototype Cells 
+### Prototype Cells
 
 In Interface Builder, the cells we make are called *Prototype Cells*. They represent templates that will be used at runtime. If you have 10 rows, then UIKit creates 10 instances of the prototype cell and customizes them accordingly.
 
@@ -81,9 +81,9 @@ Connect the UILabel to the `PaperTapeCell` class (using control-drag), and name 
 
 ```swift
 class PaperTapeCell : UITableViewCell {
- 
+
     @IBOutlet weak var label: UIView!
-    
+
 }
 ```
 
@@ -91,13 +91,13 @@ Now we have access to the label itself, and we can modify values like `label.tex
 
 ```swift
 class PaperTapeCell : UITableViewCell {
- 
+
     @IBOutlet weak var label: UILabel!
-    
-    func customize(customString: String) {
+
+    func customize(_ customString: String) {
         label.text = customString
     }
-    
+
 }
 ```
 
@@ -109,4 +109,4 @@ You designed an implemented your custom prototype UITableViewCell using many of 
 ### Next Time
 We will implement code for the Table View, turning our `UIViewController` into a `UITableViewDataSource`.
 
-When you're done go to the <a href="#top" onclick="setCalculatorTutorial(11)">next step, Part 11</a>
+#### <a href="#top" onclick="setCalculatorTutorial(11)">Part 11: Implementing your TableViewDataSource</a>

@@ -29,4 +29,4 @@ You tested your calculator, and fixed any problems that popped up. Now you have 
 ### Next Time
 You aren't done yet though! We'll shake up your world and fill in that mysterious empty space at the top of the screen with a UITableView.
 
-When you're done go to the <a href="#top" onclick="setCalculatorTutorial(9)">next step, Part 9</a>
+#### <a href="#top" onclick="setCalculatorTutorial(9)">Part 9: Preparing your UITableView</a>

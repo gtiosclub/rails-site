@@ -22,7 +22,7 @@ That's all we need to have the Table View reload, but if we add a little more we
 ```swift
 func reloadTable() {
     tableView.reloadData()
-    
+
     let lastIndex = calculations.previousExpressions.count - 1
     let indexPath = NSIndexPath(forItem: lastIndex, inSection: 0)
     if lastIndex > 0 {
@@ -40,13 +40,13 @@ We'd want to reload the table any time the user presses Enter or Clear, so we ju
 They should look like this now:
 
 ```swift
-@IBAction func equalsButtonPressed(sender: AnyObject) {
+@IBAction func equalsButtonPressed(_ sender: AnyObject) {
     calculations.clearInputAndSave(true)
     resultLabel.text = calculations.resultNumber.roundedString
     reloadTable()
 }
 
-@IBAction func clearButtonPressed(sender: UIButton) {
+@IBAction func clearButtonPressed(_ sender: UIButton) {
     calculations.clearInputAndSave(false)
     resultLabel.text = calculations.resultNumber.roundedString
     reloadTable()
@@ -61,7 +61,11 @@ Run the app in the simulator again. If you did everything right, your table view
 ### Recap
 We added a new function `reloadTable()` to handle reloading and animating the Table View.
 
-### Next Time
-Since the app is all done now, save for some more design work, we can get your code pushed up to GitHub.
+You've implemented a fully-functional Calculator app. Congratulations!
 
-When you're done go to the <a href="#top" onclick="setCalculatorTutorial(13)">next step, Part 13</a>
+You learned about Interface Builder, Autolayout Constraints, Delegates, and Table Views. These skills are extremely important in the iOS world and are the building blocks you need to make any app.
+
+### Pushing to Github
+That's it, we're all done! Now all you have to do is push your code!
+
+#### <a href="#top" onclick="setCalculatorTutorial(13)">Part 13: Finishing Up (Github)</a>

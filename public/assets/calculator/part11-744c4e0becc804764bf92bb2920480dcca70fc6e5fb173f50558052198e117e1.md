@@ -14,7 +14,7 @@ We need to add the code that controls the Table View itself. `UITableView` has t
 class ViewController: UIViewController, UITableViewDataSource {
 ```
 
-Now you'll get some errors if you try and build your project. And that's totally expected. `UITableViewDataSource` requires that we implement two specific functions before the class can be considered to conform to the protocol: `tableView(_:numberOfRowsInSection:)` and `tableView(_:cellForRowAtIndexPath:)`. 
+Now you'll get some errors if you try and build your project. And that's totally expected. `UITableViewDataSource` requires that we implement two specific functions before the class can be considered to conform to the protocol: `tableView(_:numberOfRowsInSection:)` and `tableView(_:cellForRowAtIndexPath:)`.
 
 `numberOfRowsInSection` tells the data source how many rows the table should have, and `cellForRowAtIndexPath` creates a copy of the prototype cell that we made in Part 10.
 
@@ -25,7 +25,7 @@ We need to figure out how many rows are in our table. Speaking of, how are we ac
 This is taken care of by the default CalculationDelegate that you've been using the whole time. The class has a `previousExpressions` array that holds the previous expressions entered by the user (as the name sorta implies). All we need to do is return the number of items in that array.
 
 ```swift
-func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return calculations.previousExpressions.count
 }
 ```
@@ -35,7 +35,7 @@ func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> In
 This one is a bit more complicated. First I'll show you the implementation so you can suck it all in, and then I'll explain.
 
 ```swift
-func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+func tableView(_ tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     let index = indexPath.item
     let (expression, result) = calculations.previousExpressions[index]
 
@@ -64,7 +64,7 @@ let cell = tableView.dequeueReusableCellWithIdentifier("paperTapeCell") as! Pape
 
 This is the part that actually creates out `UITableViewCell`. There are three major things happening here:
 1. We dequeue a cell with the identifier that we set in Interface Builder. If you followed what I did, that identifier is `paperTapeCell`.
-2. The `dequeueReusableCellWithIdentifier` function returns a `UITableViewCell`. 
+2. The `dequeueReusableCellWithIdentifier` function returns a `UITableViewCell`.
 3. We know that this cell is a `PaperTapeCell`, because we set the custom class of our prototype cell. We use `as!` to force-cast the cell to the correct class. It's ok for us to do the forcibly (with an `!`), because we know it will never fail.
 
 ```swift
@@ -107,4 +107,4 @@ We implemented `UITableViewDataSource` as a part of our `ViewController` and con
 ### Next Time
 We'll make the table view reload when it needs to, and add in an animation.
 
-When you're done go to the <a href="#top" onclick="setCalculatorTutorial(12)">next step, Part 12</a>
+#### <a href="#top" onclick="setCalculatorTutorial(12)">Part 12: Reloading and Animating your Table View</a>

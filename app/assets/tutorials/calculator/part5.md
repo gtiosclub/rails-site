@@ -40,7 +40,7 @@ Another caveat about Xcode is that it's more designed for a 27" iMac than a 13" 
 
 Right next to the Counterparts button, there's another set of buttons that control the left and right sidebars. Close any number of them until you have enough space to work comfortably. (You can also close the View Hierarchy with a similar looking button at the bottom-right corner of the storyboard canvas.)
 
-<p align="center"> <img src="/assets/calculator/P5/screenshot8.png" height:"400px" align="center"> </p>
+<p align="center"> <img src="/assets/calculator/P5/screenshot8.png" height="400px" align="center"> </p>
 
 This is the setup I tend to prefer, with the File Browser (left sidebar) and the Storyboard's View Hierarchy closed. The Inspector is something that gets used fairly often so it's a good idea to have it open.
 
@@ -74,7 +74,7 @@ Name the function `addButtonPressed` and then press *Connect*.
 
 Do the same for `subtractButtonPressed`, `multiplyButtonPressed`, `divideButtonPressed`, `equalsButtonPressed`, and `clearButtonPressed`. Now your View Controller should look like this:
 
-<p align="center"> <img src="/assets/calculator/P5/screenshot13.png" align="center"> </p>
+<p align="center"> <img src="/assets/calculator/P5/screenshot13.png" height="400px" align="center"> </p>
 
 ### Adding connections to the number buttons
 It would be pretty tragic if we had to make a unique function for all of these number buttons. `zeroButtonPressed`, `oneButtonPressed`, `twoButtonPressed`.... yikes.
@@ -83,7 +83,7 @@ We can actually connect **multiple** IBActions to the **same function**.
 
 From any of the number buttons, control-drag and create the function `numberButtonPressed`. It's really important that you set the type to `UIButton` instead of `AnyObject` for this one. Then, you can control-drag and link all of the other nine buttons to that *one* function. That should look like this:
 
-<p align="center"> <img src="/assets/calculator/P5/screenshot14.png" height: "100px" align="center"> </p>
+<p align="center"> <img src="/assets/calculator/P5/screenshot14.png" height="200px" align="center"> </p>
 
 Do that for all of the number buttons and you should be good to go!
 
@@ -92,8 +92,9 @@ Now we have all of our code connections established, and we're ready to make thi
 ### Recap
 You can connect Storyboard objects to code (both variables and functions) by using a control-drag across split-screened windows.
 
-### Next Time
-We set up the protocol that will be handling the calculator's calculations. I highly recommend looking into the bonus section as that explains some really important notes about IBOutlets.
+If you missed it, I talked about more technical stuff in the [Part 5 Bonus: Explaining @IBOutlet "junk"](../P5/bonus.md). Take a look at it if that sort of stuff interests you.
 
-If you want, you can read up on the IBOutlets <a href="#top" onclick="setCalculatorTutorial(50)"> bonus section,</a>
-Otherwise you can go to the <a href="#top" onclick="setCalculatorTutorial(6)">next step, Part 6</a>
+### Next Time
+We set up the protocol that will be handling the calculator's calculations.
+
+#### <a href="#top" onclick="setCalculatorTutorial(6)">Part 6: Preparing your Calculator Delegate</a>

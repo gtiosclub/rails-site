@@ -5,7 +5,8 @@ You understand the basics of working with Interface Builder, so you're ready to 
 1. Buttons. Lots of buttons. (Numbers and operators)
 2. One big output display.
 
-In [Part 2](/P2/part2.md), we finished with a UILabel in the center of the screen somewhere. That satisfies "One big output display", so now we just need some buttons.
+In <a href="#top" onclick="setCalculatorTutorial(2)">Part 2</a>, we finished with a UILabel in the center of the screen somewhere. That satisfies "One big output display", so now we just need some buttons.
+
 
 ### Buttons. Lots of buttons.
 
@@ -40,18 +41,20 @@ There's a View Controller, then a *View*, and then the components we dragged in 
 
 In the Size Inspector, we can see important specs about a view's coordinate position and its width and height. For the main view, these values can't be changed, but we can see them. **The view is 320 points wide**.
 
+(If your view isn't 320 points wide, switch to the **iPhone SE** on the bottom bar. This is important because the SE is the only device with a width divisible by 4.)
+
 #### Important Side note about Points vs Pixels
 
-In iOS development, everything is expressed in Point values instead of Pixel values. iOS devices have scale values of either @1x, @2x, or @3x:
+In iOS development everything is expressed in Point values instead of Pixel values. iOS devices have scale values of either @1x, @2x, or @3x:
 
 - **@1x**: A device without Retina Display. Every interface "point" is one on-screen pixel.
 - **@2x**: A device with standard Retina Display. Every interface "point" is four on-screen pixels (a 2x2 area).
-- **@3x**: A device with an even higher resolution Retina Display (The iPhone 6/6S Plus). Every interface "point" is nine on-screen pixels (a 3x3 area).
+- **@3x**: A device with an even higher resolution Retina Display (iPhone 6/7 Plus). Every interface "point" is nine on-screen pixels (a 3x3 area).
 
 Points allow code to make sense and work the same regardless of the pixel-density of a device. Otherwise everything would be a huge headache.
 
 #### Back to Interface Builder again
-If the main view is 320 points wide, then that means each button needs 80 points wide and 80 points tall. Click on the `Button` in the view hierarchy, and then open the Size Inspector again. This time, you should be able to modify the width and height values. Change them both to 80, and then reposition the button as necessary.
+If the main view is 320 points wide, then that means each button needs 80 points wide and 80 points tall. Click on the `Button` in the view hierarchy and then open the Size Inspector again. This time, you should be able to modify the width and height values. Change them both to 80, and then reposition the button as necessary.
 
 <p align="center"> <img src="/assets/calculator/P3/screenshot5.png" height="600px" align="center"> </p>
 
@@ -71,7 +74,7 @@ Change the button text to "9" and then change the text color and background colo
 This is what I ended up with, but beauty is in the eye of the beholder. As long as you have something that looks good to you, then we can move on.
 
 ### ⌘C ⌘V
-Remember those copy/paste muscles I mentioned? Now it's time to break those out. **⌘C** the button and **⌘V** is right back onto the view. Make sure it's snug with the other button, pixel perfect. Xcode doesn't give us any favors here, because itss auto-guides assume you want some sort of padding.
+Remember those copy/paste muscles I mentioned? Now it's time to break those out. **⌘C** the button and **⌘V** is right back onto the view. Make sure it's snug with the other button, pixel perfect. Xcode doesn't give us any favors here, because its auto-guides assume you want some sort of padding.
 
 <p align="center"> <img src="/assets/calculator/P3/screenshot8.gif" height="191px" align="center"> </p>
 
@@ -87,11 +90,11 @@ Now all we have to do it actually design the button layout itself. As long as yo
 
 <p align="center"> <img src="/assets/calculator/P3/screenshot10.png" height="350" align="center"> </p>
 
-That text label is looking a bit lonely up there, so why don't we show it some love. Change it's frame (size + position) so that it's sitting on top of the buttons. Make it align with the padding guides on the left and right of the view. Also go ahead and make it conform to whatever design style you're going for.
+That text label is looking a bit lonely up there, so why don't we show it some love. Change its frame (size + position) so that it's sitting on top of the buttons. Make it align with the padding guides on the left and right of the view. Also go ahead and make it conform to whatever design style you're going for.
 
 <p align="center"> <img src="/assets/calculator/P3/screenshot12.png" height="400" align="center"> </p>
 
-Definitely starting to look pretty solid. Leave some space above the the label, because we'll be using that later.
+Definitely starting to look pretty solid. Leave some space above the label, because we'll be using that later.
 
 ### Recap
 Interface Builder's tools make it simple to design layouts with many different components.
@@ -99,4 +102,4 @@ Interface Builder's tools make it simple to design layouts with many different c
 ### Next Time
 We will learn how to use Constraints to enable your layouts to function on any display size.
 
-When you're done go to the <a href="#top" onclick="setCalculatorTutorial(4)">next step, Part 4</a>
+#### <a href="#top" onclick="setCalculatorTutorial(4)">Part 4: Setting up your Constraints</a>

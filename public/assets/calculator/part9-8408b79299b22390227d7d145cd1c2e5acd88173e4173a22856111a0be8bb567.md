@@ -1,6 +1,6 @@
 ## Part 9: Preparing your TableViewController
 
-In the past 8 parts, you successfully built your first storyboard app! It works great (hopefully), but there's still this big blank space at the top of the screen. 
+In the past 8 parts, you successfully built your first storyboard app! It works great (hopefully), but there's still this big blank space at the top of the screen.
 **Surprise**, we're gonna actually do something with that now.
 
 Specifically, we'll spend the rest of this tutorial adding a "paper tape" to our calculator using UITableView.
@@ -13,7 +13,7 @@ In an old-style calculator for heavy accounting, expressions would get printed o
 
 We'll be implementing it in a similar style to the app **Calcbot** by Tapbots. It's free on the App Store, and a very good example of how animations can improve the feel of an app, so definitely check it out.
 
-<p align="center"> <img src="/assets/calculator/P9/screenshot2.png" width=300px align="center"> </p>
+<p align="center"> <img src="/assets/calculator/P9/screenshot2.png" width="300px" align="center"> </p>
 
 ### What is a UITableView?
 
@@ -30,7 +30,7 @@ As usual, we look to the trusty UI Palette. **Table View** comes in around half 
 
 We're going to set up the constraints in one fell swoop, so we want to make sure we put it in the right place. Drag the Table View from the palette onto the canvas, and nestle it right in the bottom-right corner of the open space. The automatic guide-lines should be pretty helpful for this.
 
-<p align="center"> <img src="/assets/calculator/P9/screenshot4.png" align="center"> </p>
+<p align="center"> <img src="/assets/calculator/P9/screenshot4.png" width="300px" align="center"> </p>
 
 ### Adding Constraints
 
@@ -40,11 +40,11 @@ Before we add our constraints, let's consider what we want:
 - The top of the Table View should be 0 points away from the bottom of the Status Bar
 - The bottom of the Table View should be *some number* of points away from the top of the Result Label. This way there's padding between the label and the table.
 
-Lucky for us, all of this is easy for the Tie Fighter menu. Open it up, disable *Constrain to margins*, and set the values as you learned in Part 4. 
+Lucky for us, all of this is easy for the Tie Fighter menu. Open it up, disable *Constrain to margins*, and set the values as you learned in Part 4.
 
 <p align="center"> <img src="/assets/calculator/P9/screenshot5.png" align="center"> </p>
 
-Now you probably have something that looks like this: 
+Now you probably have something that looks like this:
 
 <p align="center"> <img src="/assets/calculator/P9/screenshot6.png" align="center"> </p>
 
@@ -68,4 +68,4 @@ You learned about the UITableView and added one to your storyboard canvas.
 ### Next Time
 We add a custom cell to the Table View, with labels for the content of the paper tape.
 
-When you're done go to the <a href="#top" onclick="setCalculatorTutorial(10)">next step, Part 10</a>
+#### <a href="#top" onclick="setCalculatorTutorial(10)">Part 10: Implementing your Custom TableViewCell</a>

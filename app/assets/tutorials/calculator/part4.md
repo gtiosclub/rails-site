@@ -54,7 +54,7 @@ If you did it right and are attentive, you should notice a dotted orange box ins
 
 <p align="center"> <img src="/assets/calculator/P4/screenshot6.png" height="120px" align="center"> </p>
 
-This is the frame (size + origin) of the button once the constraints are applied. Notice how the origin is in the right place, but the size is stil all wrong. That brings us to...
+This is the frame (size + origin) of the button once the constraints are applied. Notice how the origin is in the right place, but the size is still all wrong. That brings us to...
 
 ### Setting your Size Constraints
 
@@ -97,12 +97,14 @@ Now, for the very first time, the **clr** button has complete constraints. The l
 
 Lucky for all of us, the other buttons use the same constraint pattern. We just have to set the same constraints for all of the other buttons. You have two options:
 
-1. **Do all of those steps for all of the buttons.** It's a bit tedious, but it would work faily well.
-2. If you select multiple buttons at once using the ⌘ button, then you can **simultanously apply constraints to all of them at once**. This is more complicated to pull off, but I demonstrate it in this video. (It's very important that you select the buttons starting with the **clr** button).
+1. **Do all of those steps for all of the buttons.** It's a bit tedious, but it would work fairly well.
+2. If you select multiple buttons at once using the ⌘ button, then you can **simultaneously apply constraints to all of them at once**. This is more complicated to pull off, but I demonstrate it in this video. (It's very important that you select the buttons starting with the **clr** button).
 
 [<p align="center"> <img src="/assets/calculator/P4/screenshot11.png" height="300" align="center"> </p>](http://www.youtube.com/watch?v=KHyFUpohY90)
 
-Both should work just as well, assuming you were *pixel perfect* when setting up your layout in Part 3. If you have problems, double check that everything is exactly where it should be.
+**([Video](http://www.youtube.com/watch?v=KHyFUpohY90)^)**
+
+Both should work just as well, assuming you were ***pixel perfect*** when setting up your layout in Part 3. *If you have problems, double check that everything is exactly where it should be.*
 
 ### Don't forget about the label
 
@@ -134,6 +136,7 @@ If it didn't -- welcome to the life of a Software Engineer. Sometimes stuff just
 Constraints are about unambiguously defining relationships between objects on screen. You can set positional constraints relative to objects nearby with the Tie Fighter and set up other dynamic relationships using control-drag.
 
 ### Next Time
-We will learn how to connect objects in the Storyboard to variable and functions in the code. 
+We will learn how to connect objects in the Storyboard to variable and functions in the code. I highly recommend looking into the bonus section as that explains some really important notes about IBOutlets.
 
-When you're done go to the <a href="#top" onclick="setCalculatorTutorial(5)">next step, Part 5</a>
+#### <a href="#top" onclick="setCalculatorTutorial(50)">Bonus: Explaining @IBOutlet "junk"</a>
+#### <a href="#top" onclick="setCalculatorTutorial(5)">Part 5: Connecting Storyboard to Code</a>

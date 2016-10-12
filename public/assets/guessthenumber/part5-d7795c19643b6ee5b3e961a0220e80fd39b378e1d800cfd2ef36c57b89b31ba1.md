@@ -7,7 +7,7 @@ Our app is almost done. You can already play and enter guesses until you get the
 First, we want to make sure that our `guessLabel` changes when the player's guess is higher or lower than the number to guess. If the player's guess is higher, we'll ask for a lower number, and vice versa. Update your `validateGuess` function to look like this:
 
 ```swift
-func validateGuess(guess: Int) {
+func validateGuess(_ guess: Int) {
     if guess < lowerBound || guess > upperBound {
         print("Your guess should be between 1 and 100!")
     } else if guess < numberToGuess {
@@ -31,10 +31,10 @@ Now, we will be adding some alerts to warn players when they enter a guess lower
 
 ```swift
 func showBoundsAlert() {
-    let alert = UIAlertController(title: "Hey!", message: "Your guess should be between 1 and 100!", preferredStyle: .Alert)
-    let action = UIAlertAction(title: "Got it", style: .Default, handler: nil)
+    let alert = UIAlertController(title: "Hey!", message: "Your guess should be between 1 and 100!", preferredStyle: .alert)
+    let action = UIAlertAction(title: "Got it", style: .default, handler: nil)
     alert.addAction(action)
-    self.presentViewController(alert, animated: true, completion: nil)
+    self.present(alert, animated: true, completion: nil)
 }
 ```   
 Now we can replace this line of code in `validateGuess`
@@ -48,10 +48,10 @@ showBoundsAlert()
 We will do something similar for our `showWinAlert` function:
 ```swift
 func showWinAlert() {
-    let alert = UIAlertController(title: "Congrats! 🎉", message: "You won with a total of \(numberOfGuesses) guesses", preferredStyle: .Alert)
-    let action = UIAlertAction(title: "Play again", style: .Default, handler: nil)
-    alert.addAction(action)        
-    self.presentViewController(alert, animated: true, completion: nil)
+    let alert = UIAlertController(title: "Congrats! 🎉", message: "You won with a total of \(numberOfGuesses) guesses", preferredStyle: .alert)
+    let action = UIAlertAction(title: "Play again", style: .default, handler: nil)
+    alert.addAction(action)    
+    self.present(alert, animated: true, completion: nil)
 }
 ```
 Replace
@@ -65,7 +65,7 @@ showWinAlert()
 As you can see, your win alert message also lets players know how many guesses they made until they got the right number. Your final `validateGuess` function will look like this:
 
 ```swift
-func validateGuess(guess: Int) {
+func validateGuess(_ guess: Int) {
     if guess < lowerBound || guess > upperBound {
         showBoundsAlert()
     } else if guess < numberToGuess {

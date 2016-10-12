@@ -1,11 +1,9 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
 # [CLICK HERE FOR FACEBOOK GROUP PAGE](https://www.facebook.com/groups/iosgatech)
 ## Announcements
-Hey everyone, thanks for coming out to the third meeting on 9/13! We had an airwatch presentation about how to evaluate and negotiate a job offer, and then we taught optionals. I have a set of challenges that we didn't have time to complete up on [https://www.github.com/iosgatech/InterviewQuestions](https://www.github.com/iosgatech/InterviewQuestions). If you want some practice with optionals, I'd recommend looking through the solutions section.
+Hey everyone, today we'll be teaching Autolayout and TableView, and I highly encourage yall to come out and learn Autolayout and TableViews properly because they're both something that you'll use extensively in your iOS Development career. 
 
-**SINCE NEXT WEEK IS CAREER FAIR WEEK, THERE IS NO MEETING.** We resume meetings with Cal-culator Part 1 on 9/27 the week after career fair week.
-
-Cyall there! 9/27, 6PM Tuesday @ Klaus 1443
+Cyall there! 10/4, 6PM Tuesday @ Klaus 1443
 
 If you haven't joined the [iOS Club Facebook page](https://www.facebook.com/groups/iosgatech). Most of the information and annoucements will be on there!
 
@@ -18,8 +16,8 @@ Date   | Stuff
 9/6    | Guessing App (Done! Check tutorials to catch up)
 9/13   | AirWatch Presentation + Optionals
 9/20   | **CAREER FAIR WEEK, NO MEETING**
-9/27   | Cal-culator Part 1
-10/4   | Cal-culator Part 2
+9/27   | Cal-culator (Done! Check the tutorials to catch up)
+10/4   | Point-Counter
 10/11  | **STUDENT RECESS**
 10/18  | TBD
 10/25  | TBD

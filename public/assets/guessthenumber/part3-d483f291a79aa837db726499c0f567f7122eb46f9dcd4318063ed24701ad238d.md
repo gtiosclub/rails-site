@@ -34,7 +34,7 @@ An IBOutlet is a connection to a UI element. An IBAction is a connected action t
 Just like we did for the label and the textfield in Part 2, control-click the button and drag it to `ViewController.swift` right below everything. In the pop-up screen, **change the connection type** from `Outlet` to `Action`. Go ahead and name the function `submitButtonPressed`. After the IBAction function has been created, add two lines of code below:
 
 ```swift
-@IBAction func submitButtonPressed(sender: UIButton) {
+@IBAction func submitButtonPressed(_ sender: UIButton) {
     generateRandomNumber()
     print("\(numberToGuess)")
 }

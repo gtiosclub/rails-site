@@ -7,7 +7,7 @@ In the past three parts, we created our Xcode project and the interface for our 
 Up to this point, our `submitButtonPressed` function looks like this:
 
 ```swift
-@IBAction func submitButtonPressed(sender: UIButton) {
+@IBAction func submitButtonPressed(_ sender: UIButton) {
     generateRandomNumber()
     print("\(numberToGuess)")
 }
@@ -15,7 +15,7 @@ Up to this point, our `submitButtonPressed` function looks like this:
 Let's change it so that when "Submit" is pressed, we can access the number that was entered. We already have an `IBOutlet` to our `UITextField` called `guessTextField`. Now all we need to do is get its text.
 
 ```swift
-@IBAction func submitButtonPressed(sender: UIButton) {
+@IBAction func submitButtonPressed(_ sender: UIButton) {
     if let guess = guessTextField.text {
         if let guessInt = Int(guess) {
             numberOfGuesses = numberOfGuesses + 1
@@ -31,7 +31,7 @@ Great! So now we know which number was entered. Let's now check if it is the win
 Now that we are able to get the player's input from the `UITextField`, we want to check if the player made the right guess, or if the number was out of our bounds (1-100 inclusive). For this, we will write a function called `validateGuess` which will have one argument, an `Int`. We want to check 4 things: if the number is out of bounds, if the number is smaller than the number to guess, if the number is bigger than the number to guess, or if the number IS the number to guess.
 
 ```swift
-func validateGuess(guess: Int) {
+func validateGuess(_ guess: Int) {
     if guess < lowerBound || guess > upperBound {
         print("Your guess should be between 1 and 100!")
     } else if guess < numberToGuess {
@@ -50,7 +50,7 @@ func validateGuess(guess: Int) {
 We have our `validateGuess` function ready, now all we need to do is call it every time "Submit" is pressed. Replace the print call with `validateGuess(guessInt)`
 
 ```swift
-@IBAction func submitButtonPressed(sender: UIButton) {
+@IBAction func submitButtonPressed(_ sender: UIButton) {
     if let guess = guessTextField.text {
         if let guessInt = Int(guess) {
             numberOfGuesses = numberOfGuesses + 1

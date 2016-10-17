@@ -13,6 +13,9 @@ function setTableViewTutorial(part) {
     case 3:
       $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'tableview', part: 3}) %>");
       break;
+    case 30:
+      $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'tableview', part: 30}) %>");
+      break;
     case 4:
       $('#tutorial-content').html("<%= escape_javascript(render :partial => 'tutorial_content', locals: {tutorial: 'tableview', part: 4}) %>");
       break;
@@ -173,15 +176,13 @@ function setCalculatorTutorial(part) {
           </div>
         </div>
       </div>
-    </div>
-    <div class="panel-group" id="accordion">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"></span>Guess The Number</a>
           </h4>
         </div>
-        <div id="collapseTwo" class="panel-collapse collapse in">
+        <div id="collapseTwo" class="panel-collapse collapse">
           <div class="panel-body">
             <table class="table">
               <tr><td><a href="#" onClick="setGuessTheNumberTutorial(1)">Part 1: Getting Started</a></td></tr>
@@ -194,15 +195,13 @@ function setCalculatorTutorial(part) {
           </div>
         </div>
       </div>
-    </div>
-    <div class="panel-group" id="accordion">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"></span>Calculator (2016 Remake)</a>
           </h4>
         </div>
-        <div id="collapseThree" class="panel-collapse collapse in">
+        <div id="collapseThree" class="panel-collapse collapse">
           <div class="panel-body">
             <table class="table">
               <tr><td><a href="#" onClick="setCalculatorTutorial(1)">Part 1: Creating your Xcode Project</a></td></tr>
@@ -223,9 +222,7 @@ function setCalculatorTutorial(part) {
           </div>
         </div>
       </div>
-    </div>
-    <!-- <div class="panel-group" id="accordion">
-      <div class="panel panel-default">
+      <!-- <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"></span>Flappy Bird (Legacy)</a>
@@ -249,8 +246,8 @@ function setCalculatorTutorial(part) {
             </table>
           </div>
         </div>
-      </div>
-    </div> -->
+      </div> -->
+    </div>
   </div>
 <%= @part %>
 <div class="col-md-9" id="tutorial-content">

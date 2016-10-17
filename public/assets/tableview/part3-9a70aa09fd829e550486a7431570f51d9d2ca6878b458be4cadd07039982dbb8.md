@@ -42,7 +42,7 @@ We also need a way for the user to change the score. A plus and minus button on 
 
 As usual, we need to set up some constraints. These buttons are pinned to the left / right edges, but are centered vertically in the cell. These buttons have an intrinsic size too, so no need to worry about setting size constraints.
 
-The constraints are left as an exercise to the reader. *[(Answers)](../P3/cheatsheet.md)*
+The constraints are left as an exercise to the reader. **<a href="#top" onclick="setTableViewTutorial(30)">Click here for the answers</a>**
 
 ### Recap
 

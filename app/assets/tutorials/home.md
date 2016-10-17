@@ -1,9 +1,11 @@
 # [CLICK HERE FOR TUTORIALS](tutorials)
 # [CLICK HERE FOR FACEBOOK GROUP PAGE](https://www.facebook.com/groups/iosgatech)
 ## Announcements
-Hey everyone, today we'll be teaching Autolayout and TableView, and I highly encourage yall to come out and learn Autolayout and TableViews properly because they're both something that you'll use extensively in your iOS Development career. 
+Hey everyone, our next tutorial is on a Multi-ViewController application called Notes! We'll teach you how to have different view controllers and how to use segues, and a bit of persistence. Come if you want to have multiple different screens on your apps and learn how to pass data in between properly!
 
-Cyall there! 10/4, 6PM Tuesday @ Klaus 1443
+We also have a new tutorial up, ScoreKeeper, which teaches you about TableViews and Autolayout. If you missed 10/4's meeting, definitely do this tutorial and catch up!
+
+Cyall there! Klaus 1443 10/18 @ 6PM
 
 If you haven't joined the [iOS Club Facebook page](https://www.facebook.com/groups/iosgatech). Most of the information and annoucements will be on there!
 
@@ -17,15 +19,15 @@ Date   | Stuff
 9/13   | AirWatch Presentation + Optionals
 9/20   | **CAREER FAIR WEEK, NO MEETING**
 9/27   | Cal-culator (Done! Check the tutorials to catch up)
-10/4   | Point-Counter
+10/4   | ScoreKeeper
 10/11  | **STUDENT RECESS**
-10/18  | TBD
-10/25  | TBD
-11/1   | TBD
-11/8   | TBD
-11/15  | TBD
+10/18  | Notes Part 1
+10/25  | Notes Part 2
+11/1   | Debugging Tutorial
+11/8   | Weather Part 1
+11/15  | Weather Part 2
 11/22  | **THANKSGIVING BREAK**
-11/29  | TBD
+11/29  | Ice Cream Showcase
 12/6   | **DEADWEEK**
 12/13  | **FINALS**
 12/20  | **WINTER BREAK**

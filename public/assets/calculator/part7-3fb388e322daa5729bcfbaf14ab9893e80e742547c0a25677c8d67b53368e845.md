@@ -34,17 +34,19 @@ The key part here is that every IBAction also has a `sender` argument. When a bu
 Next up is the operators. Even though we have four @IBAction functions, we're going to be using a fifth method so we don't have to do *basically* the same thing in each of the four operator functions. It's always better form to break something into a separate function if you're doing it more than once.
 
 ```swift
-func setOperator(_ character: String, withFunction function: (Double, Double) -> Double) {
+func setOperator(_ character: String, withFunction function: @escaping (Double, Double) -> Double) {
     ...
 }
 ```
 
 #### (Double, Double) -> Double
 
-This is definitely the most confusing part of dealing with these operators. Just like any other argument, `(Double, Double) -> Double` is a type. This time, though, it represents a *function*. In Swift, functions are types just like everything else. It reads as **a function that takes two doubles and returns a double**. More on this in a sec, because it's gonna get real cool. Just let that process some. Here's the actual method body (just throw it somewhere at the bottom of the ViewController.swift):
+Just like any other argument, `(Double, Double) -> Double` is a type. This time, though, it represents a *function*. In Swift, functions are types just like everything else. It reads as **a function that takes two doubles and returns a double**. More on this in a sec, because it's gonna get real cool.
+
+Here's the actual method body (just throw it somewhere at the bottom of the ViewController.swift):
 
 ```swift
-func setOperator(_ character: String, withFunction function: (Double, Double) -> (Double)) {
+func setOperator(_ character: String, withFunction function: @escaping (Double, Double) -> (Double)) {
     //DefaultOperator is part of the default CalculationDelegate
     let customOperator = DefaultOperator(forCharacter: character, withFunction: function)
     calculations.setOperator(customOperator)
@@ -53,6 +55,14 @@ func setOperator(_ character: String, withFunction function: (Double, Double) ->
     resultLabel.text = calculations.resultNumber.roundedString
 }
 ```
+
+#### @escaping
+
+The one weird bit here is the `@escaping` annotation. This boils down to an esoteric distinction between *espacing* and *nonescaping* closures (a function can be called a closure when it's used as a method parameter). Closures are nonescaping by default. This means they can't *escape* the function they exist in, either by passing them to a different function or by assigning them to a variable. Nonescaping functions have some benefits and can be compiler-optimized, but they won't work for us in this situation.
+
+Marking the closure `@escaping` allows it to *escape* the context of the function. We escape the closure when we call `DefaultOperator(forCharacter: character, withFunction: function)`, because we're passing the `function` to the `DefaultOperator`. Since we're violating the default nonescaping behavior, the code wouldn't compile without the `@escaping` annotation.
+
+#### Calling the function
 
 Now we can go back to looking at the @IBActions themselves. Because of how we implemented the `setOperator` function, this is gonna be really slick:
 
